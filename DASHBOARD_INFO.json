@@ -1,0 +1,106 @@
+{
+  "DASHBOARD_FOCUS": "Home Insurance Only",
+  "DASHBOARD_FEATURES": {
+    "DASHBOARD_TAB": {
+      "name": "Real-time Home Insurance Dashboard",
+      "components": [
+        "Total Calls Stat Card",
+        "Completed Calls Stat Card",
+        "Transferred to Agent Stat Card",
+        "Positive Sentiment Stat Card",
+        "Recent Calls Section",
+        "Active Agents Section",
+        "Call Summary Statistics"
+      ]
+    },
+    "TRANSCRIPTS_TAB": {
+      "name": "Home Insurance Transcript Management",
+      "components": [
+        "Call List (sorted by newest)",
+        "Transcript Viewer (with messages)",
+        "Customer Information Panel",
+        "Summary & Insights Panel"
+      ]
+    }
+  },
+  "HOME_INSURANCE_TOPICS": [
+    "Dwelling Coverage",
+    "Roof Damage",
+    "Water Damage",
+    "Weather/Storm Damage",
+    "Policy Coverage Questions",
+    "Deductibles",
+    "Claims Filing",
+    "Policy Updates/Address Changes",
+    "Premium Information"
+  ],
+  "INFORMATION_DISPLAYED": {
+    "CUSTOMER_INFORMATION": [
+      "Full Name",
+      "Phone Number",
+      "Email Address",
+      "Call Duration",
+      "Start Time",
+      "Message Count",
+      "Word Count"
+    ],
+    "CALL_TRANSCRIPT": [
+      "Full Conversation",
+      "Sender (Customer/Agent)",
+      "Message Text",
+      "Timestamp",
+      "Conversation Flow"
+    ],
+    "AI_INSIGHTS": [
+      "Call Title/Summary",
+      "Home Insurance Topics Identified",
+      "Customer Intent",
+      "Coverage Details Discussed",
+      "Deductible Information",
+      "Customer Sentiment",
+      "Action Items (documentation, assessment, claim forms)",
+      "Follow-up Required Status"
+    ],
+    "POLICY_DETAILS": [
+      "Policy Number (HOM-XXXX-XXXX format)",
+      "Coverage Type",
+      "Deductible Amount",
+      "Property Address/Location",
+      "Claim Type (if applicable)"
+    ],
+    "AGENT_INFORMATION": [
+      "Agent Name",
+      "Agent Role",
+      "Agent Status",
+      "Department",
+      "Assigned Calls",
+      "Average Call Duration",
+      "Satisfaction Score"
+    ]
+  },
+  "KEY_METRICS": [
+    "Total number of home insurance calls processed",
+    "Number of calls resolved by bot",
+    "Number of calls transferred to human agents",
+    "Positive sentiment count",
+    "Average call duration",
+    "Total messages processed",
+    "Total words spoken",
+    "Success rate percentage",
+    "Most common topics/issues"
+  ],
+  "WORKFLOW": {
+    "INCOMING_CALL": "Customer calls voice bot with home insurance question/claim",
+    "BOT_INTERACTION": "Voice bot engages with customer, gathers info about property/coverage/damage",
+    "TRANSCRIPT_SAVED": "POST /api/transcripts with conversation about home insurance",
+    "SUMMARY_GENERATED": "AI automatically generates summary with coverage details extracted",
+    "AGENT_TRANSFER": "If complex claim/coverage needed, call transferred to human agent",
+    "AGENT_REVIEW": "Agent views full transcript + AI insights about home insurance issue",
+    "AGENT_ACTION": "Agent uses insights to provide specialized home insurance guidance"
+  },
+  "DATA_SOURCES": {
+    "TRANSCRIPTS": "/data/transcripts/*.json - All home insurance call transcripts",
+    "SUMMARIES": "/data/summaries/*.json - AI-generated summaries with coverage insights",
+    "AGENTS": "/data/agents/*.json - Home insurance specialist agent profiles"
+  }
+}

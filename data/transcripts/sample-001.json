@@ -1,0 +1,77 @@
+{
+  "id": "transcript-001",
+  "customerName": "John Smith",
+  "customerPhone": "+1-555-123-4567",
+  "customerEmail": "john.smith@email.com",
+  "agentName": "Voice Bot - AI Assistant",
+  "agentId": "bot-001",
+  "duration": "00:04:32",
+  "transferredToAgent": true,
+  "callStartTime": "2025-12-09T14:30:00Z",
+  "messageCount": 12,
+  "wordCount": 287,
+  "messages": [
+    {
+      "sender": "Customer",
+      "text": "Hi, I'm calling about my home insurance policy. I have a question about my coverage.",
+      "timestamp": "2025-12-09T14:30:15Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "Hello! Thank you for calling. I'm here to help. Could you please provide me with your policy number?",
+      "timestamp": "2025-12-09T14:30:45Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "My policy number is HOM-2024-5678. I want to know if my roof damage is covered under my current plan.",
+      "timestamp": "2025-12-09T14:31:20Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "Thank you for that information. Let me look up your policy details. Your homeowners policy includes coverage for roof damage with a $1000 deductible.",
+      "timestamp": "2025-12-09T14:32:00Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "Good, that's helpful. But what about weather damage? Is that covered?",
+      "timestamp": "2025-12-09T14:32:45Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "Great question. Weather damage like storm or hail is covered under your dwelling coverage. The deductible is $1000. However, for more complex claims involving multiple areas of damage, I recommend speaking with our claims specialist.",
+      "timestamp": "2025-12-09T14:33:30Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "I see. I'm not sure about the exact details of what's covered. Can you help me understand my policy better?",
+      "timestamp": "2025-12-09T14:34:15Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "Of course! I'd be happy to help with that. However, to provide you with the most accurate information about your specific situation and all coverage details, I think it would be best to transfer you to one of our home insurance specialists.",
+      "timestamp": "2025-12-09T14:35:00Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "That sounds good. I appreciate your help so far.",
+      "timestamp": "2025-12-09T14:35:30Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "You're welcome! One moment please, I'm connecting you to a specialist now. They'll be able to give you detailed information about your dwelling coverage and roof damage claim process.",
+      "timestamp": "2025-12-09T14:35:50Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "Thank you for holding. I'm transferring your call to Sarah Johnson, our home insurance specialist. She has access to all your information.",
+      "timestamp": "2025-12-09T14:36:20Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "Perfect, thank you.",
+      "timestamp": "2025-12-09T14:36:45Z"
+    }
+  ],
+  "createdAt": "2025-12-09T14:30:00Z",
+  "updatedAt": "2025-12-09T14:36:45Z"
+}

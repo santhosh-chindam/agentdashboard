@@ -1,0 +1,151 @@
+.transcript-viewer {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.viewer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 15px;
+}
+
+.viewer-header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.4em;
+}
+
+.call-duration {
+  background: #667eea;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.transcript-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.info-card {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.info-card label {
+  display: block;
+  font-size: 0.85em;
+  color: #999;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.info-card p {
+  margin: 0;
+  font-size: 1em;
+  color: #333;
+  font-weight: 600;
+}
+
+.messages-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.messages-container h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.messages-list {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-right: 10px;
+}
+
+.message {
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.message.agent {
+  background: #f0f0f0;
+  border-left: 4px solid #667eea;
+}
+
+.message.customer {
+  background: #e8f5e9;
+  border-left: 4px solid #66bb6a;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.message-sender {
+  font-weight: 700;
+  color: #333;
+  font-size: 0.9em;
+}
+
+.message.agent .message-sender {
+  color: #667eea;
+}
+
+.message.customer .message-sender {
+  color: #66bb6a;
+}
+
+.message-time {
+  font-size: 0.8em;
+  color: #999;
+}
+
+.message-text {
+  color: #333;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .transcript-info-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .transcript-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .viewer-header {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}

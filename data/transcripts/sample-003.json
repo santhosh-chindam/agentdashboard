@@ -1,0 +1,92 @@
+{
+  "id": "transcript-003",
+  "customerName": "Michael Rodriguez",
+  "customerPhone": "+1-555-345-6789",
+  "customerEmail": "m.rodriguez@email.com",
+  "agentName": "Voice Bot - AI Assistant",
+  "agentId": "bot-001",
+  "duration": "00:06:45",
+  "transferredToAgent": true,
+  "callStartTime": "2025-12-09T15:45:00Z",
+  "messageCount": 15,
+  "wordCount": 412,
+  "messages": [
+    {
+      "sender": "Customer",
+      "text": "Hi, I need to file a claim for water damage in my basement that happened yesterday from the heavy rain.",
+      "timestamp": "2025-12-09T15:45:15Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "I'm sorry to hear about the water damage. I'm here to help. Can you please provide me with your policy number?",
+      "timestamp": "2025-12-09T15:45:45Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "Yes, it's HOM-2024-7890. The damage happened yesterday evening when it rained heavily.",
+      "timestamp": "2025-12-09T15:46:30Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "I'm sorry to hear that. Let me pull up your policy information. I can see your dwelling coverage. For water damage claims, you have a $1000 deductible.",
+      "timestamp": "2025-12-09T15:47:15Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "Okay, that's good to know. So what's the next step? What do I need to do?",
+      "timestamp": "2025-12-09T15:48:00Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "Yes, you'll need to document all the damage with photos and get a professional assessment. Our claims process requires detailed documentation of all affected areas.",
+      "timestamp": "2025-12-09T15:48:45Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "That makes sense. How long does the claims process usually take?",
+      "timestamp": "2025-12-09T15:49:30Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "Once we receive all documentation, claims typically take 10-15 business days to process. However, since water damage can be complex and require professional restoration, I think it would be better to connect you with one of our claims specialists.",
+      "timestamp": "2025-12-09T15:50:15Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "That sounds good. Will they be able to help me with everything?",
+      "timestamp": "2025-12-09T15:51:00Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "Yes, absolutely. They handle water damage claims regularly and can guide you through the entire process, including arranging for a professional damage assessment.",
+      "timestamp": "2025-12-09T15:51:45Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "Great! Please transfer me.",
+      "timestamp": "2025-12-09T15:52:15Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "Perfect. Let me connect you with Tom Williams, one of our senior claims specialists. He'll take excellent care of you.",
+      "timestamp": "2025-12-09T15:52:45Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "You're being connected now. Please hold for just one moment.",
+      "timestamp": "2025-12-09T15:53:00Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "Thank you for your help.",
+      "timestamp": "2025-12-09T15:53:30Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "You're welcome! Tom will be with you in just a moment.",
+      "timestamp": "2025-12-09T15:53:45Z"
+    }
+  ],
+  "createdAt": "2025-12-09T15:45:00Z",
+  "updatedAt": "2025-12-09T15:53:45Z"
+}

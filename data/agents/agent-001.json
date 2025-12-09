@@ -1,0 +1,14 @@
+{
+  "id": "agent-001",
+  "name": "Sarah Johnson",
+  "email": "sarah.johnson@company.com",
+  "phone": "+1-555-100-1001",
+  "role": "Home Insurance Specialist",
+  "department": "Customer Support",
+  "status": "active",
+  "assignedCalls": 45,
+  "averageCallDuration": "00:08:30",
+  "satisfactionScore": 4.8,
+  "createdAt": "2025-01-15T10:00:00Z",
+  "updatedAt": "2025-12-09T16:00:00Z"
+}

@@ -1,0 +1,31 @@
+{
+  "callId": "transcript-001",
+  "title": "Home Insurance Coverage Question - Roof Damage",
+  "keyTopics": [
+    "policy",
+    "coverage",
+    "claims"
+  ],
+  "resolution": "Transferred to Human Agent",
+  "sentiment": "Positive",
+  "duration": "00:04:32",
+  "outcome": "Transferred to Agent",
+  "insights": {
+    "customerIntent": "Question",
+    "actionItems": [
+      "Review dwelling coverage details",
+      "Send policy details email",
+      "Schedule follow-up call with specialist"
+    ],
+    "policyDetails": {
+      "policyNumber": "HOM-2024-5678",
+      "coverageType": "Home Insurance",
+      "deductible": "$1000",
+      "coverageArea": "Roof Damage"
+    },
+    "followUpRequired": true
+  },
+  "generatedAt": "2025-12-09T14:37:00Z",
+  "createdAt": "2025-12-09T14:37:00Z",
+  "updatedAt": "2025-12-09T14:37:00Z"
+}

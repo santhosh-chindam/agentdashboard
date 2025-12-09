@@ -1,0 +1,57 @@
+{
+  "id": "transcript-002",
+  "customerName": "Sarah Chen",
+  "customerPhone": "+1-555-234-5678",
+  "customerEmail": "sarah.chen@email.com",
+  "agentName": "Voice Bot - AI Assistant",
+  "agentId": "bot-001",
+  "duration": "00:02:18",
+  "transferredToAgent": false,
+  "callStartTime": "2025-12-09T15:10:00Z",
+  "messageCount": 8,
+  "wordCount": 156,
+  "messages": [
+    {
+      "sender": "Customer",
+      "text": "Hi, I'm trying to update my address on my home insurance policy.",
+      "timestamp": "2025-12-09T15:10:15Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "Hello! I'd be happy to help you update your address. Can I get your policy number please?",
+      "timestamp": "2025-12-09T15:10:45Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "It's HOM-2024-1234.",
+      "timestamp": "2025-12-09T15:11:15Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "Perfect! I found your policy. What is your new address?",
+      "timestamp": "2025-12-09T15:11:45Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "It's 456 Oak Street, Apartment 3B, San Francisco, California 94102.",
+      "timestamp": "2025-12-09T15:12:15Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "Great! I've updated your address in our system. Your policy has been updated and you should receive a confirmation email within the next few minutes.",
+      "timestamp": "2025-12-09T15:12:45Z"
+    },
+    {
+      "sender": "Customer",
+      "text": "Excellent! Thank you so much for your help.",
+      "timestamp": "2025-12-09T15:13:00Z"
+    },
+    {
+      "sender": "Agent",
+      "text": "You're welcome! Is there anything else I can help you with today?",
+      "timestamp": "2025-12-09T15:13:30Z"
+    }
+  ],
+  "createdAt": "2025-12-09T15:10:00Z",
+  "updatedAt": "2025-12-09T15:13:30Z"
+}

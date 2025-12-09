@@ -1,0 +1,29 @@
+{
+  "callId": "transcript-002",
+  "title": "Home Policy Address Update",
+  "keyTopics": [
+    "policy",
+    "billing"
+  ],
+  "resolution": "Resolved",
+  "sentiment": "Positive",
+  "duration": "00:02:18",
+  "outcome": "Resolved",
+  "insights": {
+    "customerIntent": "Request",
+    "actionItems": [
+      "Send confirmation email",
+      "Verify address change in system",
+      "Update property location records"
+    ],
+    "policyDetails": {
+      "policyNumber": "HOM-2024-1234",
+      "coverageType": "Home Insurance",
+      "location": "456 Oak Street, Apartment 3B, San Francisco, CA 94102"
+    },
+    "followUpRequired": false
+  },
+  "generatedAt": "2025-12-09T15:14:00Z",
+  "createdAt": "2025-12-09T15:14:00Z",
+  "updatedAt": "2025-12-09T15:14:00Z"
+}

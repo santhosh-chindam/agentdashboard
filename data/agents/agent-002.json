@@ -1,0 +1,14 @@
+{
+  "id": "agent-002",
+  "name": "Tom Williams",
+  "email": "tom.williams@company.com",
+  "phone": "+1-555-100-1002",
+  "role": "Claims Specialist",
+  "department": "Claims",
+  "status": "active",
+  "assignedCalls": 67,
+  "averageCallDuration": "00:12:15",
+  "satisfactionScore": 4.7,
+  "createdAt": "2025-02-20T10:00:00Z",
+  "updatedAt": "2025-12-09T16:00:00Z"
+}

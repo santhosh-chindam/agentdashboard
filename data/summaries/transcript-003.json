@@ -1,0 +1,32 @@
+{
+  "callId": "transcript-003",
+  "title": "Home Claim Filing - Water Damage",
+  "keyTopics": [
+    "claims",
+    "coverage"
+  ],
+  "resolution": "Transferred to Human Agent",
+  "sentiment": "Neutral",
+  "duration": "00:06:45",
+  "outcome": "Transferred to Agent",
+  "insights": {
+    "customerIntent": "Request",
+    "actionItems": [
+      "Document all damages with photos",
+      "Get professional assessment",
+      "Send claim forms",
+      "Schedule professional restoration estimate"
+    ],
+    "policyDetails": {
+      "policyNumber": "HOM-2024-7890",
+      "coverageType": "Home Insurance",
+      "deductible": "$1000",
+      "claimType": "Water Damage",
+      "cause": "Heavy Rain"
+    },
+    "followUpRequired": true
+  },
+  "generatedAt": "2025-12-09T15:54:00Z",
+  "createdAt": "2025-12-09T15:54:00Z",
+  "updatedAt": "2025-12-09T15:54:00Z"
+}

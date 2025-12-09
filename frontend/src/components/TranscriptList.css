@@ -1,0 +1,127 @@
+.transcript-list {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  color: #999;
+  text-align: center;
+}
+
+.empty-state p {
+  font-size: 1.1em;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+.empty-state small {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+.transcript-item {
+  padding: 15px;
+  background: #f9f9f9;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.transcript-item:hover {
+  background: #f0f0f0;
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);
+}
+
+.transcript-item.active {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
+.transcript-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.transcript-item-header h3 {
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.75em;
+  font-weight: 600;
+}
+
+.badge-transferred {
+  background: #ffeaa7;
+  color: #d63031;
+}
+
+.transcript-item.active .badge-transferred {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.badge-completed {
+  background: #dfe6e9;
+  color: #2f3542;
+}
+
+.transcript-item.active .badge-completed {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.transcript-item-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 0.85em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.transcript-item.active .transcript-item-meta {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.meta-item {
+  display: flex;
+  gap: 5px;
+}
+
+.meta-item strong {
+  color: #333;
+}
+
+.transcript-item.active .meta-item strong {
+  color: white;
+}
+
+.transcript-item-footer {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 8px;
+  color: #999;
+  font-size: 0.8em;
+}
+
+.transcript-item.active .transcript-item-footer {
+  border-top-color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.8);
+}
