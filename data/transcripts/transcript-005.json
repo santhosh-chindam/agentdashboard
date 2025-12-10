@@ -1,63 +1,55 @@
 {
   "id": "transcript-005",
-  "customerId": "CUST-097153",
-  "agentId": "agent-004",
+  "customerName": "Mark Moore",
+  "customerPhone": "+44 20 8794 5771",
+  "customerEmail": "mark.moore@outlook.com",
   "agentName": "Agent 016",
-  "callDate": "2025-11-29T17:27:57.788Z",
-  "callDuration": 853,
-  "callStatus": "completed",
-  "customer": {
-    "name": "Mark Moore",
-    "email": "mark.moore@outlook.com",
-    "phone": "+44 20 8794 5771",
-    "address": "383 High Street, B5 4ST",
-    "postcode": "B5 4ST",
-    "policyNumber": "POL-0822532"
-  },
-  "scenario": "renewal",
-  "scenarioDescription": "Discussing annual home insurance renewal",
+  "agentId": "agent-004",
+  "duration": "00:14:13",
+  "transferredToAgent": false,
+  "callStartTime": "2025-11-29T17:27:57.788Z",
+  "messageCount": 6,
+  "wordCount": 42,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can I increase my coverage?",
       "timestamp": "2025-12-09T17:15:57.788Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Certainly! Let me walk you through the key coverage areas.",
       "timestamp": "2025-12-09T17:19:57.788Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How much will this cost me?",
       "timestamp": "2025-12-09T17:19:57.788Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Let me explain the process step by step.",
       "timestamp": "2025-12-09T17:23:57.788Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Are there any additional benefits available?",
       "timestamp": "2025-12-09T17:23:57.788Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Absolutely, let me look at your options.",
       "timestamp": "2025-12-09T17:27:57.788Z"
     }
   ],
-  "sentiment": {
-    "overall": "neutral",
-    "score": "0.98"
+  "createdAt": "2025-11-29T17:27:57.788Z",
+  "updatedAt": "2025-12-10T03:26:12.247Z",
+  "policyDetails": {
+    "policyNumber": "POL-0822532",
+    "policyType": "Home Insurance",
+    "propertyAddress": "383 High Street, B5 4ST"
   },
-  "wordCount": 42,
-  "messageCount": 6,
-  "keyTopics": [
-    "renewal",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding discussing annual home insurance renewal. Customer satisfied with outcome."
+  "customerAddress": "383 High Street, B5 4ST",
+  "customerPostcode": "B5 4ST",
+  "policyNumber": "POL-0822532"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "summary-017",
+  "transcriptId": "transcript-017",
+  "title": "Requesting new quotation for property - Daniel Rodriguez",
+  "keyTopics": [
+    "quotation",
+    "home insurance",
+    "UK property"
+  ],
+  "resolution": "Information provided and next steps shared with the customer.",
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.85
+  },
+  "outcome": "Customer called regarding requesting new quotation for property. Customer satisfied with outcome.",
+  "customerIntent": "Requesting new quotation for property",
+  "actionItems": [
+    "Send confirmation email to customer"
+  ],
+  "summaryText": "Customer Daniel Rodriguez contacted Lloyd's Banking Group regarding requesting new quotation for property. Information provided and next steps shared with the customer. Agent advised customer on key policy details and next steps.",
+  "generatedAt": "2025-12-10T01:34:35.182Z"
+}

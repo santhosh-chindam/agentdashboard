@@ -1,93 +1,85 @@
 {
   "id": "transcript-015",
-  "customerId": "CUST-020169",
-  "agentId": "agent-006",
+  "customerName": "Susan White",
+  "customerPhone": "+44 117 2090 1418",
+  "customerEmail": "susan.white@gmail.com",
   "agentName": "Agent 010",
-  "callDate": "2025-10-22T17:27:57.792Z",
-  "callDuration": 1051,
-  "callStatus": "completed",
-  "customer": {
-    "name": "Susan White",
-    "email": "susan.white@gmail.com",
-    "phone": "+44 117 2090 1418",
-    "address": "3 High Street, G2 1BD",
-    "postcode": "G2 1BD",
-    "policyNumber": "POL-0413733"
-  },
-  "scenario": "policy_details",
-  "scenarioDescription": "Requesting full policy document",
+  "agentId": "agent-006",
+  "duration": "00:17:31",
+  "transferredToAgent": false,
+  "callStartTime": "2025-10-22T17:27:57.792Z",
+  "messageCount": 12,
+  "wordCount": 85,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Is there a way to reduce my premium?",
       "timestamp": "2025-12-09T17:03:57.792Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "That's an excellent question. Here's what I'd recommend...",
       "timestamp": "2025-12-09T17:07:57.792Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can I increase my coverage?",
       "timestamp": "2025-12-09T17:07:57.792Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Let me explain the process step by step.",
       "timestamp": "2025-12-09T17:11:57.792Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's my excess amount?",
       "timestamp": "2025-12-09T17:11:57.792Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Yes, we can adjust that for you right away.",
       "timestamp": "2025-12-09T17:15:57.792Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How long does claim settlement usually take?",
       "timestamp": "2025-12-09T17:15:57.792Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "I can definitely help with that. The cost would be...",
       "timestamp": "2025-12-09T17:19:57.792Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How long does claim settlement usually take?",
       "timestamp": "2025-12-09T17:19:57.792Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "That's an excellent question. Here's what I'd recommend...",
       "timestamp": "2025-12-09T17:23:57.792Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's my excess amount?",
       "timestamp": "2025-12-09T17:23:57.792Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Absolutely, let me look at your options.",
       "timestamp": "2025-12-09T17:27:57.792Z"
     }
   ],
-  "sentiment": {
-    "overall": "neutral",
-    "score": "0.61"
+  "createdAt": "2025-10-22T17:27:57.792Z",
+  "updatedAt": "2025-12-10T03:26:12.254Z",
+  "policyDetails": {
+    "policyNumber": "POL-0413733",
+    "policyType": "Home Insurance",
+    "propertyAddress": "3 High Street, G2 1BD"
   },
-  "wordCount": 85,
-  "messageCount": 12,
-  "keyTopics": [
-    "policy_details",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding requesting full policy document. Customer satisfied with outcome."
+  "customerAddress": "3 High Street, G2 1BD",
+  "customerPostcode": "G2 1BD",
+  "policyNumber": "POL-0413733"
 }

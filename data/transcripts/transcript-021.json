@@ -1,83 +1,75 @@
 {
   "id": "transcript-021",
-  "customerId": "CUST-001395",
-  "agentId": "agent-018",
+  "customerName": "Kenneth King",
+  "customerPhone": "+44 113 5334 4551",
+  "customerEmail": "kenneth.king@btinternet.com",
   "agentName": "Agent 034",
-  "callDate": "2025-10-19T17:27:57.797Z",
-  "callDuration": 600,
-  "callStatus": "transferred",
-  "customer": {
-    "name": "Kenneth King",
-    "email": "kenneth.king@btinternet.com",
-    "phone": "+44 113 5334 4551",
-    "address": "750 High Street, AB10 1BZ",
-    "postcode": "AB10 1BZ",
-    "policyNumber": "POL-0818754"
-  },
-  "scenario": "discount",
-  "scenarioDescription": "Asking about available discounts",
+  "agentId": "agent-018",
+  "duration": "00:10:00",
+  "transferredToAgent": true,
+  "callStartTime": "2025-10-19T17:27:57.797Z",
+  "messageCount": 10,
+  "wordCount": 79,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can you explain what's covered in my policy?",
       "timestamp": "2025-12-09T17:07:57.797Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "The typical timeframe is about 5-7 working days.",
       "timestamp": "2025-12-09T17:11:57.797Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's the process for making a claim?",
       "timestamp": "2025-12-09T17:11:57.797Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "The typical timeframe is about 5-7 working days.",
       "timestamp": "2025-12-09T17:15:57.797Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What happens if I need to make changes?",
       "timestamp": "2025-12-09T17:15:57.797Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "The typical timeframe is about 5-7 working days.",
       "timestamp": "2025-12-09T17:19:57.797Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How long does claim settlement usually take?",
       "timestamp": "2025-12-09T17:19:57.797Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "That's a great point. Let me check what we can do.",
       "timestamp": "2025-12-09T17:23:57.797Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How long does claim settlement usually take?",
       "timestamp": "2025-12-09T17:23:57.797Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "We have several options available for you.",
       "timestamp": "2025-12-09T17:27:57.797Z"
     }
   ],
-  "sentiment": {
-    "overall": "negative",
-    "score": "0.77"
+  "createdAt": "2025-10-19T17:27:57.797Z",
+  "updatedAt": "2025-12-10T03:26:12.257Z",
+  "policyDetails": {
+    "policyNumber": "POL-0818754",
+    "policyType": "Home Insurance",
+    "propertyAddress": "750 High Street, AB10 1BZ"
   },
-  "wordCount": 79,
-  "messageCount": 10,
-  "keyTopics": [
-    "discount",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding asking about available discounts. Customer satisfied with outcome."
+  "customerAddress": "750 High Street, AB10 1BZ",
+  "customerPostcode": "AB10 1BZ",
+  "policyNumber": "POL-0818754"
 }

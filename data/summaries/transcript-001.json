@@ -1,36 +1,21 @@
 {
-  "callId": "transcript-001",
-  "title": "Home Insurance Coverage Question - Roof Damage",
+  "id": "sample-001",
+  "transcriptId": "sample-001",
+  "title": "Home insurance enquiry - James Patterson",
   "keyTopics": [
-    "policy",
-    "coverage",
-    "claims"
+    "home insurance",
+    "general enquiry"
   ],
-  "resolution": "Transferred to Human Agent",
-  "sentiment": "Positive",
-  "duration": "00:04:32",
-  "outcome": "Transferred to Agent",
-  "insights": {
-    "customerIntent": "Question",
-    "actionItems": [
-      "Review dwelling coverage details",
-      "Send policy details email",
-      "Schedule follow-up call with specialist"
-    ],
-    "policyDetails": {
-      "policyNumber": "HOM-2024-5678",
-      "coverageType": "Home Insurance",
-      "deductible": "$1000",
-      "coverageArea": "Roof Damage",
-      "propertyValue": "$450,000",
-      "homeAge": "12 years",
-      "constructionType": "Wood Frame",
-      "roofMaterial": "Asphalt Shingles",
-      "lastRoofReplacement": "2015"
-    },
-    "followUpRequired": true
+  "resolution": "Information provided and next steps shared with the customer.",
+  "sentiment": {
+    "overall": "negative",
+    "score": 0.4
   },
-  "generatedAt": "2025-12-09T14:37:00Z",
-  "createdAt": "2025-12-09T14:37:00Z",
-  "updatedAt": "2025-12-09T14:37:00Z"
+  "outcome": "Information provided and next steps shared with the customer.",
+  "customerIntent": "general enquiry",
+  "actionItems": [
+    "Send confirmation email to customer"
+  ],
+  "summaryText": "Customer James Patterson contacted Lloyd's Banking Group regarding general enquiry. Information provided and next steps shared with the customer. Agent advised customer on key policy details and next steps.",
+  "generatedAt": "2025-12-10T01:29:49.371Z"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "summary-009",
+  "transcriptId": "transcript-009",
+  "title": "Interested in upgrading coverage - Barbara Sanchez",
+  "keyTopics": [
+    "upgrade",
+    "home insurance",
+    "UK property"
+  ],
+  "resolution": "Information provided and next steps shared with the customer.",
+  "sentiment": {
+    "overall": "positive",
+    "score": 0.82
+  },
+  "outcome": "Customer called regarding interested in upgrading coverage. Customer satisfied with outcome.",
+  "customerIntent": "Interested in upgrading coverage",
+  "actionItems": [
+    "Send confirmation email to customer"
+  ],
+  "summaryText": "Customer Barbara Sanchez contacted Lloyd's Banking Group regarding interested in upgrading coverage. Information provided and next steps shared with the customer. Agent advised customer on key policy details and next steps.",
+  "generatedAt": "2025-12-10T01:34:35.180Z"
+}

@@ -1,63 +1,55 @@
 {
   "id": "transcript-026",
-  "customerId": "CUST-070313",
-  "agentId": "agent-012",
+  "customerName": "Dorothy Taylor",
+  "customerPhone": "+44 114 7279 8595",
+  "customerEmail": "dorothy.taylor@yahoo.co.uk",
   "agentName": "Agent 034",
-  "callDate": "2025-10-13T17:27:57.798Z",
-  "callDuration": 929,
-  "callStatus": "completed",
-  "customer": {
-    "name": "Dorothy Taylor",
-    "email": "dorothy.taylor@yahoo.co.uk",
-    "phone": "+44 114 7279 8595",
-    "address": "688 High Street, SP1 2AA",
-    "postcode": "SP1 2AA",
-    "policyNumber": "POL-0114731"
-  },
-  "scenario": "renewal",
-  "scenarioDescription": "Discussing annual home insurance renewal",
+  "agentId": "agent-012",
+  "duration": "00:15:29",
+  "transferredToAgent": false,
+  "callStartTime": "2025-10-13T17:27:57.798Z",
+  "messageCount": 6,
+  "wordCount": 50,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What happens if I need to make changes?",
       "timestamp": "2025-12-09T17:15:57.798Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Certainly! Let me walk you through the key coverage areas.",
       "timestamp": "2025-12-09T17:19:57.798Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What happens if I need to make changes?",
       "timestamp": "2025-12-09T17:19:57.798Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Yes, we can adjust that for you right away.",
       "timestamp": "2025-12-09T17:23:57.798Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Is there a way to reduce my premium?",
       "timestamp": "2025-12-09T17:23:57.798Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "We have several options available for you.",
       "timestamp": "2025-12-09T17:27:57.798Z"
     }
   ],
-  "sentiment": {
-    "overall": "neutral",
-    "score": "0.98"
+  "createdAt": "2025-10-13T17:27:57.798Z",
+  "updatedAt": "2025-12-10T03:26:12.260Z",
+  "policyDetails": {
+    "policyNumber": "POL-0114731",
+    "policyType": "Home Insurance",
+    "propertyAddress": "688 High Street, SP1 2AA"
   },
-  "wordCount": 50,
-  "messageCount": 6,
-  "keyTopics": [
-    "renewal",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding discussing annual home insurance renewal. Customer satisfied with outcome."
+  "customerAddress": "688 High Street, SP1 2AA",
+  "customerPostcode": "SP1 2AA",
+  "policyNumber": "POL-0114731"
 }

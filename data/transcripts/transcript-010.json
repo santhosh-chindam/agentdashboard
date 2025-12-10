@@ -1,83 +1,75 @@
 {
   "id": "transcript-010",
-  "customerId": "CUST-095194",
-  "agentId": "agent-002",
+  "customerName": "Edward Lewis",
+  "customerPhone": "+44 131 0780 2699",
+  "customerEmail": "edward.lewis@btinternet.com",
   "agentName": "Agent 016",
-  "callDate": "2025-09-26T17:27:57.789Z",
-  "callDuration": 821,
-  "callStatus": "completed",
-  "customer": {
-    "name": "Edward Lewis",
-    "email": "edward.lewis@btinternet.com",
-    "phone": "+44 131 0780 2699",
-    "address": "404 High Street, W1A 1AA",
-    "postcode": "W1A 1AA",
-    "policyNumber": "POL-0217431"
-  },
-  "scenario": "complaint",
-  "scenarioDescription": "Lodging complaint about claim processing",
+  "agentId": "agent-002",
+  "duration": "00:13:41",
+  "transferredToAgent": false,
+  "callStartTime": "2025-09-26T17:27:57.789Z",
+  "messageCount": 10,
+  "wordCount": 84,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's the process for making a claim?",
       "timestamp": "2025-12-09T17:07:57.789Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "That's an excellent question. Here's what I'd recommend...",
       "timestamp": "2025-12-09T17:11:57.789Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What happens if I need to make changes?",
       "timestamp": "2025-12-09T17:11:57.789Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Yes, we can adjust that for you right away.",
       "timestamp": "2025-12-09T17:15:57.789Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Is there a way to reduce my premium?",
       "timestamp": "2025-12-09T17:15:57.789Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Certainly! Let me walk you through the key coverage areas.",
       "timestamp": "2025-12-09T17:19:57.789Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's the process for making a claim?",
       "timestamp": "2025-12-09T17:19:57.789Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Certainly! Let me walk you through the key coverage areas.",
       "timestamp": "2025-12-09T17:23:57.789Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's the process for making a claim?",
       "timestamp": "2025-12-09T17:23:57.789Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Certainly! Let me walk you through the key coverage areas.",
       "timestamp": "2025-12-09T17:27:57.789Z"
     }
   ],
-  "sentiment": {
-    "overall": "positive",
-    "score": "0.79"
+  "createdAt": "2025-09-26T17:27:57.789Z",
+  "updatedAt": "2025-12-10T03:26:12.251Z",
+  "policyDetails": {
+    "policyNumber": "POL-0217431",
+    "policyType": "Home Insurance",
+    "propertyAddress": "404 High Street, W1A 1AA"
   },
-  "wordCount": 84,
-  "messageCount": 10,
-  "keyTopics": [
-    "complaint",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding lodging complaint about claim processing. Customer satisfied with outcome."
+  "customerAddress": "404 High Street, W1A 1AA",
+  "customerPostcode": "W1A 1AA",
+  "policyNumber": "POL-0217431"
 }

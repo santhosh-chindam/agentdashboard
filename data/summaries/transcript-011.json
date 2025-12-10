@@ -1,0 +1,22 @@
+{
+  "id": "summary-011",
+  "transcriptId": "transcript-011",
+  "title": "Enquiring about coverage details - Mary Morris",
+  "keyTopics": [
+    "query",
+    "home insurance",
+    "UK property"
+  ],
+  "resolution": "Information provided and next steps shared with the customer.",
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.59
+  },
+  "outcome": "Customer called regarding enquiring about coverage details. Customer satisfied with outcome.",
+  "customerIntent": "Enquiring about coverage details",
+  "actionItems": [
+    "Send confirmation email to customer"
+  ],
+  "summaryText": "Customer Mary Morris contacted Lloyd's Banking Group regarding enquiring about coverage details. Information provided and next steps shared with the customer. Agent advised customer on key policy details and next steps.",
+  "generatedAt": "2025-12-10T01:34:35.181Z"
+}

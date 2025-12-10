@@ -1,0 +1,21 @@
+{
+  "id": "sample-001",
+  "transcriptId": "sample-001",
+  "title": "Home insurance enquiry - James Patterson",
+  "keyTopics": [
+    "home insurance",
+    "general enquiry"
+  ],
+  "resolution": "Information provided and next steps shared with the customer.",
+  "sentiment": {
+    "overall": "positive",
+    "score": 0.9
+  },
+  "outcome": "Information provided and next steps shared with the customer.",
+  "customerIntent": "general enquiry",
+  "actionItems": [
+    "Send confirmation email to customer"
+  ],
+  "summaryText": "Customer James Patterson contacted Lloyd's Banking Group regarding general enquiry. Information provided and next steps shared with the customer. Agent advised customer on key policy details and next steps.",
+  "generatedAt": "2025-12-10T01:34:35.177Z"
+}

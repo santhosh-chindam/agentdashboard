@@ -8,6 +8,7 @@ function SummaryPanel({ transcriptId, transcript }) {
   const [expandedSection, setExpandedSection] = useState('summary');
 
   useEffect(() => {
+    if (!transcriptId) return;
     fetchSummary();
   }, [transcriptId]);
 
@@ -15,9 +16,10 @@ function SummaryPanel({ transcriptId, transcript }) {
     try {
       setLoading(true);
       const response = await axios.get(`/api/summaries/${transcriptId}`);
-      setSummary(response.data.data);
+      setSummary(response?.data?.data || null);
     } catch (error) {
       console.error('Error fetching summary:', error);
+      setSummary(null);
     } finally {
       setLoading(false);
     }

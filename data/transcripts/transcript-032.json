@@ -1,83 +1,75 @@
 {
   "id": "transcript-032",
-  "customerId": "CUST-074543",
-  "agentId": "agent-018",
+  "customerName": "Donna Sanchez",
+  "customerPhone": "+44 141 7491 0248",
+  "customerEmail": "donna.sanchez@gmail.com",
   "agentName": "Agent 019",
-  "callDate": "2025-11-26T17:27:57.799Z",
-  "callDuration": 499,
-  "callStatus": "completed",
-  "customer": {
-    "name": "Donna Sanchez",
-    "email": "donna.sanchez@gmail.com",
-    "phone": "+44 141 7491 0248",
-    "address": "229 High Street, WR1 1AA",
-    "postcode": "WR1 1AA",
-    "policyNumber": "POL-0224802"
-  },
-  "scenario": "complaint",
-  "scenarioDescription": "Lodging complaint about claim processing",
+  "agentId": "agent-018",
+  "duration": "00:08:19",
+  "transferredToAgent": false,
+  "callStartTime": "2025-11-26T17:27:57.799Z",
+  "messageCount": 10,
+  "wordCount": 68,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can I increase my coverage?",
       "timestamp": "2025-12-09T17:07:57.799Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Yes, we can adjust that for you right away.",
       "timestamp": "2025-12-09T17:11:57.799Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can I increase my coverage?",
       "timestamp": "2025-12-09T17:11:57.799Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Let me explain the process step by step.",
       "timestamp": "2025-12-09T17:15:57.799Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can you explain what's covered in my policy?",
       "timestamp": "2025-12-09T17:15:57.799Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "We have several options available for you.",
       "timestamp": "2025-12-09T17:19:57.799Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How much will this cost me?",
       "timestamp": "2025-12-09T17:19:57.799Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "You're covered for the following scenarios...",
       "timestamp": "2025-12-09T17:23:57.799Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's the process for making a claim?",
       "timestamp": "2025-12-09T17:23:57.799Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "We have several options available for you.",
       "timestamp": "2025-12-09T17:27:57.799Z"
     }
   ],
-  "sentiment": {
-    "overall": "negative",
-    "score": "0.75"
+  "createdAt": "2025-11-26T17:27:57.799Z",
+  "updatedAt": "2025-12-10T03:26:12.263Z",
+  "policyDetails": {
+    "policyNumber": "POL-0224802",
+    "policyType": "Home Insurance",
+    "propertyAddress": "229 High Street, WR1 1AA"
   },
-  "wordCount": 68,
-  "messageCount": 10,
-  "keyTopics": [
-    "complaint",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding lodging complaint about claim processing. Customer satisfied with outcome."
+  "customerAddress": "229 High Street, WR1 1AA",
+  "customerPostcode": "WR1 1AA",
+  "policyNumber": "POL-0224802"
 }

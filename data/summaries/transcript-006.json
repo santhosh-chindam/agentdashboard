@@ -1,0 +1,22 @@
+{
+  "id": "summary-006",
+  "transcriptId": "transcript-006",
+  "title": "Asking about available discounts - Steven Collins",
+  "keyTopics": [
+    "discount",
+    "home insurance",
+    "UK property"
+  ],
+  "resolution": "Information provided and next steps shared with the customer.",
+  "sentiment": {
+    "overall": "negative",
+    "score": 0.91
+  },
+  "outcome": "Customer called regarding asking about available discounts. Customer satisfied with outcome.",
+  "customerIntent": "Asking about available discounts",
+  "actionItems": [
+    "Send confirmation email to customer"
+  ],
+  "summaryText": "Customer Steven Collins contacted Lloyd's Banking Group regarding asking about available discounts. Information provided and next steps shared with the customer. Agent advised customer on key policy details and next steps.",
+  "generatedAt": "2025-12-10T01:34:35.179Z"
+}

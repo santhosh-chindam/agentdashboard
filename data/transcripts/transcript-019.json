@@ -1,93 +1,85 @@
 {
   "id": "transcript-019",
-  "customerId": "CUST-023859",
-  "agentId": "agent-009",
+  "customerName": "Matthew Ramirez",
+  "customerPhone": "+44 131 3877 9128",
+  "customerEmail": "matthew.ramirez@btinternet.com",
   "agentName": "Agent 044",
-  "callDate": "2025-09-23T17:27:57.794Z",
-  "callDuration": 1944,
-  "callStatus": "completed",
-  "customer": {
-    "name": "Matthew Ramirez",
-    "email": "matthew.ramirez@btinternet.com",
-    "phone": "+44 131 3877 9128",
-    "address": "246 High Street, GU1 1AA",
-    "postcode": "GU1 1AA",
-    "policyNumber": "POL-0435273"
-  },
-  "scenario": "address_change",
-  "scenarioDescription": "Updating residential address",
+  "agentId": "agent-009",
+  "duration": "00:32:24",
+  "transferredToAgent": false,
+  "callStartTime": "2025-09-23T17:27:57.794Z",
+  "messageCount": 12,
+  "wordCount": 93,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can I increase my coverage?",
       "timestamp": "2025-12-09T17:03:57.794Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "That's an excellent question. Here's what I'd recommend...",
       "timestamp": "2025-12-09T17:07:57.794Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Is there a way to reduce my premium?",
       "timestamp": "2025-12-09T17:07:57.794Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "That's a great point. Let me check what we can do.",
       "timestamp": "2025-12-09T17:11:57.794Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's the process for making a claim?",
       "timestamp": "2025-12-09T17:11:57.794Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Absolutely, let me look at your options.",
       "timestamp": "2025-12-09T17:15:57.794Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How much will this cost me?",
       "timestamp": "2025-12-09T17:15:57.794Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "I can definitely help with that. The cost would be...",
       "timestamp": "2025-12-09T17:19:57.794Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Is there a way to reduce my premium?",
       "timestamp": "2025-12-09T17:19:57.794Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Yes, we can adjust that for you right away.",
       "timestamp": "2025-12-09T17:23:57.794Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How much will this cost me?",
       "timestamp": "2025-12-09T17:23:57.794Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Let me explain the process step by step.",
       "timestamp": "2025-12-09T17:27:57.794Z"
     }
   ],
-  "sentiment": {
-    "overall": "negative",
-    "score": "0.79"
+  "createdAt": "2025-09-23T17:27:57.794Z",
+  "updatedAt": "2025-12-10T03:26:12.256Z",
+  "policyDetails": {
+    "policyNumber": "POL-0435273",
+    "policyType": "Home Insurance",
+    "propertyAddress": "246 High Street, GU1 1AA"
   },
-  "wordCount": 93,
-  "messageCount": 12,
-  "keyTopics": [
-    "address_change",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding updating residential address. Customer satisfied with outcome."
+  "customerAddress": "246 High Street, GU1 1AA",
+  "customerPostcode": "GU1 1AA",
+  "policyNumber": "POL-0435273"
 }

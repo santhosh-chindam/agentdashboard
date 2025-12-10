@@ -1,0 +1,22 @@
+{
+  "id": "summary-015",
+  "transcriptId": "transcript-015",
+  "title": "Requesting full policy document - Susan White",
+  "keyTopics": [
+    "policy_details",
+    "home insurance",
+    "UK property"
+  ],
+  "resolution": "Information provided and next steps shared with the customer.",
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.61
+  },
+  "outcome": "Customer called regarding requesting full policy document. Customer satisfied with outcome.",
+  "customerIntent": "Requesting full policy document",
+  "actionItems": [
+    "Send confirmation email to customer"
+  ],
+  "summaryText": "Customer Susan White contacted Lloyd's Banking Group regarding requesting full policy document. Information provided and next steps shared with the customer. Agent advised customer on key policy details and next steps.",
+  "generatedAt": "2025-12-10T01:34:35.182Z"
+}

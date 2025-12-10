@@ -1,83 +1,75 @@
 {
   "id": "transcript-017",
-  "customerId": "CUST-083706",
-  "agentId": "agent-003",
+  "customerName": "Daniel Rodriguez",
+  "customerPhone": "+44 118 1405 1717",
+  "customerEmail": "daniel.rodriguez@yahoo.co.uk",
   "agentName": "Agent 014",
-  "callDate": "2025-09-12T17:27:57.793Z",
-  "callDuration": 1329,
-  "callStatus": "completed",
-  "customer": {
-    "name": "Daniel Rodriguez",
-    "email": "daniel.rodriguez@yahoo.co.uk",
-    "phone": "+44 118 1405 1717",
-    "address": "689 High Street, DT1 1HW",
-    "postcode": "DT1 1HW",
-    "policyNumber": "POL-0462837"
-  },
-  "scenario": "quotation",
-  "scenarioDescription": "Requesting new quotation for property",
+  "agentId": "agent-003",
+  "duration": "00:22:09",
+  "transferredToAgent": false,
+  "callStartTime": "2025-09-12T17:27:57.793Z",
+  "messageCount": 10,
+  "wordCount": 68,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can I increase my coverage?",
       "timestamp": "2025-12-09T17:07:57.793Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "The typical timeframe is about 5-7 working days.",
       "timestamp": "2025-12-09T17:11:57.793Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can I increase my coverage?",
       "timestamp": "2025-12-09T17:11:57.793Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "The typical timeframe is about 5-7 working days.",
       "timestamp": "2025-12-09T17:15:57.793Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can I increase my coverage?",
       "timestamp": "2025-12-09T17:15:57.793Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "I can definitely help with that. The cost would be...",
       "timestamp": "2025-12-09T17:19:57.793Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Is there a way to reduce my premium?",
       "timestamp": "2025-12-09T17:19:57.793Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "You're covered for the following scenarios...",
       "timestamp": "2025-12-09T17:23:57.793Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How much will this cost me?",
       "timestamp": "2025-12-09T17:23:57.793Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "We have several options available for you.",
       "timestamp": "2025-12-09T17:27:57.793Z"
     }
   ],
-  "sentiment": {
-    "overall": "neutral",
-    "score": "0.85"
+  "createdAt": "2025-09-12T17:27:57.793Z",
+  "updatedAt": "2025-12-10T03:26:12.255Z",
+  "policyDetails": {
+    "policyNumber": "POL-0462837",
+    "policyType": "Home Insurance",
+    "propertyAddress": "689 High Street, DT1 1HW"
   },
-  "wordCount": 68,
-  "messageCount": 10,
-  "keyTopics": [
-    "quotation",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding requesting new quotation for property. Customer satisfied with outcome."
+  "customerAddress": "689 High Street, DT1 1HW",
+  "customerPostcode": "DT1 1HW",
+  "policyNumber": "POL-0462837"
 }

@@ -1,35 +1,21 @@
 {
-  "callId": "transcript-002",
-  "title": "Home Policy Address Update",
+  "id": "sample-002",
+  "transcriptId": "sample-002",
+  "title": "Home insurance enquiry - Sarah Williams",
   "keyTopics": [
-    "policy",
-    "billing"
+    "home insurance",
+    "general enquiry"
   ],
-  "resolution": "Resolved",
-  "sentiment": "Positive",
-  "duration": "00:02:18",
-  "outcome": "Resolved",
-  "insights": {
-    "customerIntent": "Request",
-    "actionItems": [
-      "Send confirmation email",
-      "Verify address change in system",
-      "Update property location records"
-    ],
-    "policyDetails": {
-      "policyNumber": "HOM-2024-1234",
-      "coverageType": "Home Insurance",
-      "previousLocation": "789 Elm Street, Boston, MA 02101",
-      "newLocation": "456 Oak Street, Apartment 3B, San Francisco, CA 94102",
-      "propertyValue": "$525,000",
-      "homeAge": "18 years",
-      "constructionType": "Brick",
-      "buildingType": "Condo",
-      "squareFootage": "1,800 sq ft"
-    },
-    "followUpRequired": false
+  "resolution": "Information provided and next steps shared with the customer.",
+  "sentiment": {
+    "overall": "neutral",
+    "score": 0.7
   },
-  "generatedAt": "2025-12-09T15:14:00Z",
-  "createdAt": "2025-12-09T15:14:00Z",
-  "updatedAt": "2025-12-09T15:14:00Z"
+  "outcome": "Information provided and next steps shared with the customer.",
+  "customerIntent": "general enquiry",
+  "actionItems": [
+    "Send confirmation email to customer"
+  ],
+  "summaryText": "Customer Sarah Williams contacted Lloyd's Banking Group regarding general enquiry. Information provided and next steps shared with the customer. Agent advised customer on key policy details and next steps.",
+  "generatedAt": "2025-12-10T01:29:49.372Z"
 }

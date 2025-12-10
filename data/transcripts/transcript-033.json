@@ -1,68 +1,60 @@
 {
   "id": "transcript-033",
-  "customerId": "CUST-053489",
-  "agentId": "agent-019",
+  "customerName": "David Edwards",
+  "customerPhone": "+44 20 8782 7436",
+  "customerEmail": "david.edwards@yahoo.co.uk",
   "agentName": "Agent 035",
-  "callDate": "2025-10-12T17:27:57.800Z",
-  "callDuration": 986,
-  "callStatus": "completed",
-  "customer": {
-    "name": "David Edwards",
-    "email": "david.edwards@yahoo.co.uk",
-    "phone": "+44 20 8782 7436",
-    "address": "225 High Street, M2 1BA",
-    "postcode": "M2 1BA",
-    "policyNumber": "POL-0277762"
-  },
-  "scenario": "upgrade",
-  "scenarioDescription": "Interested in upgrading coverage",
+  "agentId": "agent-019",
+  "duration": "00:16:26",
+  "transferredToAgent": false,
+  "callStartTime": "2025-10-12T17:27:57.800Z",
+  "messageCount": 7,
+  "wordCount": 48,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What happens if I need to make changes?",
       "timestamp": "2025-12-09T17:13:57.800Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "We have several options available for you.",
       "timestamp": "2025-12-09T17:17:57.800Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's my excess amount?",
       "timestamp": "2025-12-09T17:17:57.800Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "You're covered for the following scenarios...",
       "timestamp": "2025-12-09T17:21:57.800Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How long does claim settlement usually take?",
       "timestamp": "2025-12-09T17:21:57.800Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "The typical timeframe is about 5-7 working days.",
       "timestamp": "2025-12-09T17:25:57.800Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can you explain what's covered in my policy?",
       "timestamp": "2025-12-09T17:25:57.800Z"
     }
   ],
-  "sentiment": {
-    "overall": "negative",
-    "score": "0.66"
+  "createdAt": "2025-10-12T17:27:57.800Z",
+  "updatedAt": "2025-12-10T03:26:12.264Z",
+  "policyDetails": {
+    "policyNumber": "POL-0277762",
+    "policyType": "Home Insurance",
+    "propertyAddress": "225 High Street, M2 1BA"
   },
-  "wordCount": 48,
-  "messageCount": 7,
-  "keyTopics": [
-    "upgrade",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding interested in upgrading coverage. Customer satisfied with outcome."
+  "customerAddress": "225 High Street, M2 1BA",
+  "customerPostcode": "M2 1BA",
+  "policyNumber": "POL-0277762"
 }

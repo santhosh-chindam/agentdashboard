@@ -1,0 +1,22 @@
+{
+  "id": "summary-014",
+  "transcriptId": "transcript-014",
+  "title": "Discussing annual home insurance renewal - Brian Lopez",
+  "keyTopics": [
+    "renewal",
+    "home insurance",
+    "UK property"
+  ],
+  "resolution": "Information provided and next steps shared with the customer.",
+  "sentiment": {
+    "overall": "negative",
+    "score": 0.89
+  },
+  "outcome": "Customer called regarding discussing annual home insurance renewal. Customer satisfied with outcome.",
+  "customerIntent": "Discussing annual home insurance renewal",
+  "actionItems": [
+    "Send confirmation email to customer"
+  ],
+  "summaryText": "Customer Brian Lopez contacted Lloyd's Banking Group regarding discussing annual home insurance renewal. Information provided and next steps shared with the customer. Agent advised customer on key policy details and next steps.",
+  "generatedAt": "2025-12-10T01:34:35.181Z"
+}

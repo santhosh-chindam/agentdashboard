@@ -1,88 +1,80 @@
 {
   "id": "transcript-007",
-  "customerId": "CUST-087409",
-  "agentId": "agent-006",
+  "customerName": "Kevin Williams",
+  "customerPhone": "+44 141 3048 0769",
+  "customerEmail": "kevin.williams@gmail.com",
   "agentName": "Agent 029",
-  "callDate": "2025-09-11T17:27:57.789Z",
-  "callDuration": 384,
-  "callStatus": "transferred",
-  "customer": {
-    "name": "Kevin Williams",
-    "email": "kevin.williams@gmail.com",
-    "phone": "+44 141 3048 0769",
-    "address": "187 High Street, RH1 1AA",
-    "postcode": "RH1 1AA",
-    "policyNumber": "POL-0068042"
-  },
-  "scenario": "address_change",
-  "scenarioDescription": "Updating residential address",
+  "agentId": "agent-006",
+  "duration": "00:06:24",
+  "transferredToAgent": true,
+  "callStartTime": "2025-09-11T17:27:57.789Z",
+  "messageCount": 11,
+  "wordCount": 70,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can I increase my coverage?",
       "timestamp": "2025-12-09T17:05:57.788Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "You're covered for the following scenarios...",
       "timestamp": "2025-12-09T17:09:57.788Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can I increase my coverage?",
       "timestamp": "2025-12-09T17:09:57.788Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "We have several options available for you.",
       "timestamp": "2025-12-09T17:13:57.788Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What happens if I need to make changes?",
       "timestamp": "2025-12-09T17:13:57.788Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "We have several options available for you.",
       "timestamp": "2025-12-09T17:17:57.788Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's my excess amount?",
       "timestamp": "2025-12-09T17:17:57.788Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Yes, we can adjust that for you right away.",
       "timestamp": "2025-12-09T17:21:57.789Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's the process for making a claim?",
       "timestamp": "2025-12-09T17:21:57.789Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "You're covered for the following scenarios...",
       "timestamp": "2025-12-09T17:25:57.789Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How do I renew my policy?",
       "timestamp": "2025-12-09T17:25:57.789Z"
     }
   ],
-  "sentiment": {
-    "overall": "negative",
-    "score": "0.79"
+  "createdAt": "2025-09-11T17:27:57.789Z",
+  "updatedAt": "2025-12-10T03:26:12.249Z",
+  "policyDetails": {
+    "policyNumber": "POL-0068042",
+    "policyType": "Home Insurance",
+    "propertyAddress": "187 High Street, RH1 1AA"
   },
-  "wordCount": 70,
-  "messageCount": 11,
-  "keyTopics": [
-    "address_change",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding updating residential address. Customer satisfied with outcome."
+  "customerAddress": "187 High Street, RH1 1AA",
+  "customerPostcode": "RH1 1AA",
+  "policyNumber": "POL-0068042"
 }

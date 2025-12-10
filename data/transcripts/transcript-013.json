@@ -1,68 +1,60 @@
 {
   "id": "transcript-013",
-  "customerId": "CUST-043251",
-  "agentId": "agent-004",
+  "customerName": "Kenneth Lewis",
+  "customerPhone": "+44 20 9558 4496",
+  "customerEmail": "kenneth.lewis@gmail.com",
   "agentName": "Agent 017",
-  "callDate": "2025-10-10T17:27:57.791Z",
-  "callDuration": 645,
-  "callStatus": "completed",
-  "customer": {
-    "name": "Kenneth Lewis",
-    "email": "kenneth.lewis@gmail.com",
-    "phone": "+44 20 9558 4496",
-    "address": "359 High Street, SE1 7AA",
-    "postcode": "SE1 7AA",
-    "policyNumber": "POL-0287644"
-  },
-  "scenario": "discount",
-  "scenarioDescription": "Asking about available discounts",
+  "agentId": "agent-004",
+  "duration": "00:10:45",
+  "transferredToAgent": false,
+  "callStartTime": "2025-10-10T17:27:57.791Z",
+  "messageCount": 7,
+  "wordCount": 43,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What happens if I need to make changes?",
       "timestamp": "2025-12-09T17:13:57.791Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "That's an excellent question. Here's what I'd recommend...",
       "timestamp": "2025-12-09T17:17:57.791Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's my excess amount?",
       "timestamp": "2025-12-09T17:17:57.791Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "You're covered for the following scenarios...",
       "timestamp": "2025-12-09T17:21:57.791Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's my excess amount?",
       "timestamp": "2025-12-09T17:21:57.791Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "That's an excellent question. Here's what I'd recommend...",
       "timestamp": "2025-12-09T17:25:57.791Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can I increase my coverage?",
       "timestamp": "2025-12-09T17:25:57.791Z"
     }
   ],
-  "sentiment": {
-    "overall": "negative",
-    "score": "0.96"
+  "createdAt": "2025-10-10T17:27:57.791Z",
+  "updatedAt": "2025-12-10T03:26:12.253Z",
+  "policyDetails": {
+    "policyNumber": "POL-0287644",
+    "policyType": "Home Insurance",
+    "propertyAddress": "359 High Street, SE1 7AA"
   },
-  "wordCount": 43,
-  "messageCount": 7,
-  "keyTopics": [
-    "discount",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding asking about available discounts. Customer satisfied with outcome."
+  "customerAddress": "359 High Street, SE1 7AA",
+  "customerPostcode": "SE1 7AA",
+  "policyNumber": "POL-0287644"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "summary-020",
+  "transcriptId": "transcript-020",
+  "title": "Asking about available discounts - Barbara Harris",
+  "keyTopics": [
+    "discount",
+    "home insurance",
+    "UK property"
+  ],
+  "resolution": "Information provided and next steps shared with the customer.",
+  "sentiment": {
+    "overall": "positive",
+    "score": 0.65
+  },
+  "outcome": "Customer called regarding asking about available discounts. Customer satisfied with outcome.",
+  "customerIntent": "Asking about available discounts",
+  "actionItems": [
+    "Send confirmation email to customer"
+  ],
+  "summaryText": "Customer Barbara Harris contacted Lloyd's Banking Group regarding asking about available discounts. Information provided and next steps shared with the customer. Agent advised customer on key policy details and next steps.",
+  "generatedAt": "2025-12-10T01:34:35.183Z"
+}

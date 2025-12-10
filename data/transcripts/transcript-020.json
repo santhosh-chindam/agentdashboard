@@ -1,73 +1,65 @@
 {
   "id": "transcript-020",
-  "customerId": "CUST-045940",
-  "agentId": "agent-011",
+  "customerName": "Barbara Harris",
+  "customerPhone": "+44 121 5958 8943",
+  "customerEmail": "barbara.harris@btinternet.com",
   "agentName": "Agent 040",
-  "callDate": "2025-11-29T17:27:57.794Z",
-  "callDuration": 1612,
-  "callStatus": "completed",
-  "customer": {
-    "name": "Barbara Harris",
-    "email": "barbara.harris@btinternet.com",
-    "phone": "+44 121 5958 8943",
-    "address": "162 High Street, OX1 1AA",
-    "postcode": "OX1 1AA",
-    "policyNumber": "POL-0090941"
-  },
-  "scenario": "discount",
-  "scenarioDescription": "Asking about available discounts",
+  "agentId": "agent-011",
+  "duration": "00:26:52",
+  "transferredToAgent": false,
+  "callStartTime": "2025-11-29T17:27:57.794Z",
+  "messageCount": 8,
+  "wordCount": 63,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How much will this cost me?",
       "timestamp": "2025-12-09T17:11:57.794Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Let me explain the process step by step.",
       "timestamp": "2025-12-09T17:15:57.794Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Is there a way to reduce my premium?",
       "timestamp": "2025-12-09T17:15:57.794Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Certainly! Let me walk you through the key coverage areas.",
       "timestamp": "2025-12-09T17:19:57.794Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Can you explain what's covered in my policy?",
       "timestamp": "2025-12-09T17:19:57.794Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Let me explain the process step by step.",
       "timestamp": "2025-12-09T17:23:57.794Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How much will this cost me?",
       "timestamp": "2025-12-09T17:23:57.794Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Yes, we can adjust that for you right away.",
       "timestamp": "2025-12-09T17:27:57.794Z"
     }
   ],
-  "sentiment": {
-    "overall": "positive",
-    "score": "0.65"
+  "createdAt": "2025-11-29T17:27:57.794Z",
+  "updatedAt": "2025-12-10T03:26:12.256Z",
+  "policyDetails": {
+    "policyNumber": "POL-0090941",
+    "policyType": "Home Insurance",
+    "propertyAddress": "162 High Street, OX1 1AA"
   },
-  "wordCount": 63,
-  "messageCount": 8,
-  "keyTopics": [
-    "discount",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding asking about available discounts. Customer satisfied with outcome."
+  "customerAddress": "162 High Street, OX1 1AA",
+  "customerPostcode": "OX1 1AA",
+  "policyNumber": "POL-0090941"
 }

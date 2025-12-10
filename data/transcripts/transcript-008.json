@@ -1,73 +1,65 @@
 {
   "id": "transcript-008",
-  "customerId": "CUST-086969",
-  "agentId": "agent-016",
+  "customerName": "Mary White",
+  "customerPhone": "+44 20 1962 5620",
+  "customerEmail": "mary.white@btinternet.com",
   "agentName": "Agent 034",
-  "callDate": "2025-12-06T17:27:57.789Z",
-  "callDuration": 569,
-  "callStatus": "completed",
-  "customer": {
-    "name": "Mary White",
-    "email": "mary.white@btinternet.com",
-    "phone": "+44 20 1962 5620",
-    "address": "106 High Street, NP10 8XH",
-    "postcode": "NP10 8XH",
-    "policyNumber": "POL-0862177"
-  },
-  "scenario": "coverage_removal",
-  "scenarioDescription": "Removing unwanted coverage options",
+  "agentId": "agent-016",
+  "duration": "00:09:29",
+  "transferredToAgent": false,
+  "callStartTime": "2025-12-06T17:27:57.789Z",
+  "messageCount": 8,
+  "wordCount": 57,
   "messages": [
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "How long does claim settlement usually take?",
       "timestamp": "2025-12-09T17:11:57.789Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "We have several options available for you.",
       "timestamp": "2025-12-09T17:15:57.789Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What happens if I need to make changes?",
       "timestamp": "2025-12-09T17:15:57.789Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Absolutely, let me look at your options.",
       "timestamp": "2025-12-09T17:19:57.789Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "What's my excess amount?",
       "timestamp": "2025-12-09T17:19:57.789Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "That's a great point. Let me check what we can do.",
       "timestamp": "2025-12-09T17:23:57.789Z"
     },
     {
-      "speaker": "customer",
+      "sender": "Customer",
       "text": "Are there any additional benefits available?",
       "timestamp": "2025-12-09T17:23:57.789Z"
     },
     {
-      "speaker": "agent",
+      "sender": "Agent",
       "text": "Absolutely, let me look at your options.",
       "timestamp": "2025-12-09T17:27:57.789Z"
     }
   ],
-  "sentiment": {
-    "overall": "positive",
-    "score": "0.88"
+  "createdAt": "2025-12-06T17:27:57.789Z",
+  "updatedAt": "2025-12-10T03:26:12.249Z",
+  "policyDetails": {
+    "policyNumber": "POL-0862177",
+    "policyType": "Home Insurance",
+    "propertyAddress": "106 High Street, NP10 8XH"
   },
-  "wordCount": 57,
-  "messageCount": 8,
-  "keyTopics": [
-    "coverage_removal",
-    "home insurance",
-    "UK property"
-  ],
-  "notes": "Customer called regarding removing unwanted coverage options. Customer satisfied with outcome."
+  "customerAddress": "106 High Street, NP10 8XH",
+  "customerPostcode": "NP10 8XH",
+  "policyNumber": "POL-0862177"
 }
