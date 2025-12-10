@@ -22,7 +22,14 @@
       "coverageType": "Home Insurance",
       "deductible": "$1000",
       "claimType": "Water Damage",
-      "cause": "Heavy Rain"
+      "cause": "Heavy Rain",
+      "propertyValue": "$600,000",
+      "homeAge": "8 years",
+      "basement": "Yes",
+      "basementType": "Finished",
+      "sumpPumpInstalled": "Yes",
+      "estimatedDamage": "$8,500",
+      "estimatedPayment": "$7,500"
     },
     "followUpRequired": true
   },

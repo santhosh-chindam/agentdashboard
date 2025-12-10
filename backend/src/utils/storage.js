@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 
-const DATA_DIR = path.join(__dirname, '../../data');
+const DATA_DIR = path.join(__dirname, '../../..', 'data');
 const TRANSCRIPTS_DIR = path.join(DATA_DIR, 'transcripts');
 const SUMMARIES_DIR = path.join(DATA_DIR, 'summaries');
 const AGENTS_DIR = path.join(DATA_DIR, 'agents');

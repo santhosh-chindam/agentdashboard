@@ -1,0 +1,83 @@
+{
+  "id": "transcript-017",
+  "customerId": "CUST-083706",
+  "agentId": "agent-003",
+  "agentName": "Agent 014",
+  "callDate": "2025-09-12T17:27:57.793Z",
+  "callDuration": 1329,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Daniel Rodriguez",
+    "email": "daniel.rodriguez@yahoo.co.uk",
+    "phone": "+44 118 1405 1717",
+    "address": "689 High Street, DT1 1HW",
+    "postcode": "DT1 1HW",
+    "policyNumber": "POL-0462837"
+  },
+  "scenario": "quotation",
+  "scenarioDescription": "Requesting new quotation for property",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "Can I increase my coverage?",
+      "timestamp": "2025-12-09T17:07:57.793Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "The typical timeframe is about 5-7 working days.",
+      "timestamp": "2025-12-09T17:11:57.793Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can I increase my coverage?",
+      "timestamp": "2025-12-09T17:11:57.793Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "The typical timeframe is about 5-7 working days.",
+      "timestamp": "2025-12-09T17:15:57.793Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can I increase my coverage?",
+      "timestamp": "2025-12-09T17:15:57.793Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can definitely help with that. The cost would be...",
+      "timestamp": "2025-12-09T17:19:57.793Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Is there a way to reduce my premium?",
+      "timestamp": "2025-12-09T17:19:57.793Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "You're covered for the following scenarios...",
+      "timestamp": "2025-12-09T17:23:57.793Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "How much will this cost me?",
+      "timestamp": "2025-12-09T17:23:57.793Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "We have several options available for you.",
+      "timestamp": "2025-12-09T17:27:57.793Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "neutral",
+    "score": "0.85"
+  },
+  "wordCount": 68,
+  "messageCount": 10,
+  "keyTopics": [
+    "quotation",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding requesting new quotation for property. Customer satisfied with outcome."
+}

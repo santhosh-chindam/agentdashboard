@@ -1,0 +1,73 @@
+{
+  "id": "transcript-025",
+  "customerId": "CUST-076228",
+  "agentId": "agent-010",
+  "agentName": "Agent 038",
+  "callDate": "2025-10-23T17:27:57.797Z",
+  "callDuration": 1822,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Joshua Sanchez",
+    "email": "joshua.sanchez@outlook.com",
+    "phone": "+44 161 8060 2874",
+    "address": "559 High Street, EH8 8DX",
+    "postcode": "EH8 8DX",
+    "policyNumber": "POL-0836208"
+  },
+  "scenario": "policy_details",
+  "scenarioDescription": "Requesting full policy document",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "Are there any additional benefits available?",
+      "timestamp": "2025-12-09T17:11:57.797Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Certainly! Let me walk you through the key coverage areas.",
+      "timestamp": "2025-12-09T17:15:57.797Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can I increase my coverage?",
+      "timestamp": "2025-12-09T17:15:57.797Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "You're covered for the following scenarios...",
+      "timestamp": "2025-12-09T17:19:57.797Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Are there any additional benefits available?",
+      "timestamp": "2025-12-09T17:19:57.797Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a great point. Let me check what we can do.",
+      "timestamp": "2025-12-09T17:23:57.797Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "How much will this cost me?",
+      "timestamp": "2025-12-09T17:23:57.797Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, we can adjust that for you right away.",
+      "timestamp": "2025-12-09T17:27:57.797Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "negative",
+    "score": "0.99"
+  },
+  "wordCount": 59,
+  "messageCount": 8,
+  "keyTopics": [
+    "policy_details",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding requesting full policy document. Customer satisfied with outcome."
+}

@@ -1,0 +1,68 @@
+{
+  "id": "transcript-013",
+  "customerId": "CUST-043251",
+  "agentId": "agent-004",
+  "agentName": "Agent 017",
+  "callDate": "2025-10-10T17:27:57.791Z",
+  "callDuration": 645,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Kenneth Lewis",
+    "email": "kenneth.lewis@gmail.com",
+    "phone": "+44 20 9558 4496",
+    "address": "359 High Street, SE1 7AA",
+    "postcode": "SE1 7AA",
+    "policyNumber": "POL-0287644"
+  },
+  "scenario": "discount",
+  "scenarioDescription": "Asking about available discounts",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "What happens if I need to make changes?",
+      "timestamp": "2025-12-09T17:13:57.791Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's an excellent question. Here's what I'd recommend...",
+      "timestamp": "2025-12-09T17:17:57.791Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "What's my excess amount?",
+      "timestamp": "2025-12-09T17:17:57.791Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "You're covered for the following scenarios...",
+      "timestamp": "2025-12-09T17:21:57.791Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "What's my excess amount?",
+      "timestamp": "2025-12-09T17:21:57.791Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's an excellent question. Here's what I'd recommend...",
+      "timestamp": "2025-12-09T17:25:57.791Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can I increase my coverage?",
+      "timestamp": "2025-12-09T17:25:57.791Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "negative",
+    "score": "0.96"
+  },
+  "wordCount": 43,
+  "messageCount": 7,
+  "keyTopics": [
+    "discount",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding asking about available discounts. Customer satisfied with outcome."
+}

@@ -1,0 +1,68 @@
+{
+  "id": "transcript-012",
+  "customerId": "CUST-034615",
+  "agentId": "agent-013",
+  "agentName": "Agent 040",
+  "callDate": "2025-10-24T17:27:57.790Z",
+  "callDuration": 1807,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Melissa Gonzalez",
+    "email": "melissa.gonzalez@gmail.com",
+    "phone": "+44 121 1747 7000",
+    "address": "144 High Street, LS1 1BA",
+    "postcode": "LS1 1BA",
+    "policyNumber": "POL-0760576"
+  },
+  "scenario": "discount",
+  "scenarioDescription": "Asking about available discounts",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "What happens if I need to make changes?",
+      "timestamp": "2025-12-09T17:13:57.790Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Certainly! Let me walk you through the key coverage areas.",
+      "timestamp": "2025-12-09T17:17:57.790Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can I increase my coverage?",
+      "timestamp": "2025-12-09T17:17:57.790Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Certainly! Let me walk you through the key coverage areas.",
+      "timestamp": "2025-12-09T17:21:57.790Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can you explain what's covered in my policy?",
+      "timestamp": "2025-12-09T17:21:57.790Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me explain the process step by step.",
+      "timestamp": "2025-12-09T17:25:57.790Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Is there a way to reduce my premium?",
+      "timestamp": "2025-12-09T17:25:57.790Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "negative",
+    "score": "0.54"
+  },
+  "wordCount": 57,
+  "messageCount": 7,
+  "keyTopics": [
+    "discount",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding asking about available discounts. Customer satisfied with outcome."
+}

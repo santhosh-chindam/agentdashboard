@@ -1,0 +1,63 @@
+{
+  "id": "transcript-028",
+  "customerId": "CUST-032100",
+  "agentId": "agent-019",
+  "agentName": "Agent 010",
+  "callDate": "2025-10-21T17:27:57.798Z",
+  "callDuration": 1399,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Susan Martinez",
+    "email": "susan.martinez@btinternet.com",
+    "phone": "+44 141 1572 2978",
+    "address": "809 High Street, L1 1AA",
+    "postcode": "L1 1AA",
+    "policyNumber": "POL-0381680"
+  },
+  "scenario": "address_change",
+  "scenarioDescription": "Updating residential address",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "Can you explain what's covered in my policy?",
+      "timestamp": "2025-12-09T17:15:57.798Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "We have several options available for you.",
+      "timestamp": "2025-12-09T17:19:57.798Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "How long does claim settlement usually take?",
+      "timestamp": "2025-12-09T17:19:57.798Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "You're covered for the following scenarios...",
+      "timestamp": "2025-12-09T17:23:57.798Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can I increase my coverage?",
+      "timestamp": "2025-12-09T17:23:57.798Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "We have several options available for you.",
+      "timestamp": "2025-12-09T17:27:57.798Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "neutral",
+    "score": "0.93"
+  },
+  "wordCount": 40,
+  "messageCount": 6,
+  "keyTopics": [
+    "address_change",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding updating residential address. Customer satisfied with outcome."
+}

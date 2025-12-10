@@ -19,7 +19,13 @@
     "policyDetails": {
       "policyNumber": "HOM-2024-1234",
       "coverageType": "Home Insurance",
-      "location": "456 Oak Street, Apartment 3B, San Francisco, CA 94102"
+      "previousLocation": "789 Elm Street, Boston, MA 02101",
+      "newLocation": "456 Oak Street, Apartment 3B, San Francisco, CA 94102",
+      "propertyValue": "$525,000",
+      "homeAge": "18 years",
+      "constructionType": "Brick",
+      "buildingType": "Condo",
+      "squareFootage": "1,800 sq ft"
     },
     "followUpRequired": false
   },

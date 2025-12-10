@@ -1,8 +1,8 @@
 {
-  "id": "transcript-002",
-  "customerName": "Sarah Chen",
-  "customerPhone": "+1-555-234-5678",
-  "customerEmail": "sarah.chen@email.com",
+  "id": "sample-002",
+  "customerName": "Sarah Williams",
+  "customerPhone": "+44 121 6555 0000",
+  "customerEmail": "sarah.williams@gmail.com",
   "agentName": "Voice Bot - AI Assistant",
   "agentId": "bot-001",
   "duration": "00:02:18",
@@ -13,7 +13,7 @@
   "messages": [
     {
       "sender": "Customer",
-      "text": "Hi, I'm trying to update my address on my home insurance policy.",
+      "text": "Hi, I'm ringing about my home insurance policy. I have a question about my cover.",
       "timestamp": "2025-12-09T15:10:15Z"
     },
     {
@@ -23,12 +23,12 @@
     },
     {
       "sender": "Customer",
-      "text": "It's HOM-2024-1234.",
+      "text": "My policy number is POL-2024-5678. I want to know if my roof damage is covered under my current plan.",
       "timestamp": "2025-12-09T15:11:15Z"
     },
     {
       "sender": "Agent",
-      "text": "Perfect! I found your policy. What is your new address?",
+      "text": "Thank you for that information. Let me look up your policy details. Your home insurance includes cover for roof damage with a £1000 excess.",
       "timestamp": "2025-12-09T15:11:45Z"
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "sender": "Agent",
-      "text": "Great! I've updated your address in our system. Your policy has been updated and you should receive a confirmation email within the next few minutes.",
+      "text": "Great question. Weather damage like storm or hail is covered under your buildings cover. The excess is £1000. However, for more complex claims involving multiple areas of damage, I recommend speaking with our claims handler.",
       "timestamp": "2025-12-09T15:12:45Z"
     },
     {
@@ -53,5 +53,77 @@
     }
   ],
   "createdAt": "2025-12-09T15:10:00Z",
-  "updatedAt": "2025-12-09T15:13:30Z"
+  "updatedAt": "2025-12-09T15:13:30Z",
+  "policyDetails": {
+    "policyNumber": "HOM-2024-1234",
+    "policyType": "Homeowners Insurance - Deluxe",
+    "propertyAddress": "789 Elm Street, Boston, MA 02101",
+    "newAddress": "456 Oak Street, Apartment 3B, San Francisco, California 94102",
+    "policyStatus": "Active",
+    "effectiveDate": "2023-11-20",
+    "expirationDate": "2025-11-20",
+    "daysToExpiration": 11,
+    "annualPremium": "$1,485.00",
+    "monthlyPayment": "$123.75",
+    "paymentMethod": "Credit Card",
+    "coverage": {
+      "dwelling": {
+        "limit": "$425,000",
+        "deductible": "$1,500",
+        "description": "Covers the structure of your home and attached structures"
+      },
+      "personalProperty": {
+        "limit": "$212,500",
+        "deductible": "$1,500",
+        "description": "Covers your belongings inside the home"
+      },
+      "liabilityProtection": {
+        "limit": "$500,000",
+        "deductible": "$0",
+        "description": "Covers legal responsibility for injuries and damages to others"
+      },
+      "medicalPayments": {
+        "limit": "$7,500",
+        "deductible": "$0",
+        "description": "Covers medical expenses for guests injured on your property"
+      },
+      "additionalLiving": {
+        "limit": "$127,500",
+        "deductible": "$1,500",
+        "description": "Covers temporary living expenses if home is uninhabitable"
+      }
+    },
+    "coveredPerils": [
+      "Fire and smoke damage",
+      "Windstorm and hail damage",
+      "Theft and vandalism",
+      "Falling objects",
+      "Roof damage from weather",
+      "Lightning strikes",
+      "Vehicle damage to home",
+      "Weight of ice, snow, or sleet",
+      "Water backup",
+      "Burst pipes"
+    ],
+    "exclusions": [
+      "Flood damage",
+      "Earthquake damage",
+      "Wear and tear",
+      "Maintenance issues",
+      "Intentional damage",
+      "Pests and rodents"
+    ],
+    "discounts": [
+      "Multi-policy discount (Home + Auto): 18%",
+      "Security system discount: 12%",
+      "Claims-free for 5 years: 7%",
+      "Paperless discount: 2%"
+    ],
+    "appliedDiscounts": "39% total discount",
+    "agentAssigned": "James Martinez",
+    "agentPhone": "+1-555-100-1003"
+  },
+  "customerAddress": "42 Broad Street, Birmingham, B5 4ST",
+  "customerPostcode": "B5 4ST",
+  "policyNumber": "POL-2024-5678"
 }

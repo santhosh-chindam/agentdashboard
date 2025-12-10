@@ -1,0 +1,83 @@
+{
+  "id": "transcript-027",
+  "customerId": "CUST-071554",
+  "agentId": "agent-006",
+  "agentName": "Agent 007",
+  "callDate": "2025-11-12T17:27:57.798Z",
+  "callDuration": 665,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Jessica Martin",
+    "email": "jessica.martin@outlook.com",
+    "phone": "+44 113 1407 7080",
+    "address": "926 High Street, CF10 1BH",
+    "postcode": "CF10 1BH",
+    "policyNumber": "POL-0208494"
+  },
+  "scenario": "renewal",
+  "scenarioDescription": "Discussing annual home insurance renewal",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "Is there a way to reduce my premium?",
+      "timestamp": "2025-12-09T17:07:57.798Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's an excellent question. Here's what I'd recommend...",
+      "timestamp": "2025-12-09T17:11:57.798Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "How do I renew my policy?",
+      "timestamp": "2025-12-09T17:11:57.798Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me explain the process step by step.",
+      "timestamp": "2025-12-09T17:15:57.798Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "What's my excess amount?",
+      "timestamp": "2025-12-09T17:15:57.798Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can definitely help with that. The cost would be...",
+      "timestamp": "2025-12-09T17:19:57.798Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can I increase my coverage?",
+      "timestamp": "2025-12-09T17:19:57.798Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a great point. Let me check what we can do.",
+      "timestamp": "2025-12-09T17:23:57.798Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Is there a way to reduce my premium?",
+      "timestamp": "2025-12-09T17:23:57.798Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a great point. Let me check what we can do.",
+      "timestamp": "2025-12-09T17:27:57.798Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "positive",
+    "score": "0.60"
+  },
+  "wordCount": 79,
+  "messageCount": 10,
+  "keyTopics": [
+    "renewal",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding discussing annual home insurance renewal. Customer satisfied with outcome."
+}

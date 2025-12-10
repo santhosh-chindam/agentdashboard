@@ -1,0 +1,73 @@
+{
+  "id": "transcript-031",
+  "customerId": "CUST-037249",
+  "agentId": "agent-013",
+  "agentName": "Agent 030",
+  "callDate": "2025-11-04T17:27:57.798Z",
+  "callDuration": 1565,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Steven Young",
+    "email": "steven.young@outlook.com",
+    "phone": "+44 121 7597 8577",
+    "address": "549 High Street, BN1 1AA",
+    "postcode": "BN1 1AA",
+    "policyNumber": "POL-0606856"
+  },
+  "scenario": "upgrade",
+  "scenarioDescription": "Interested in upgrading coverage",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "How much will this cost me?",
+      "timestamp": "2025-12-09T17:11:57.798Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "The typical timeframe is about 5-7 working days.",
+      "timestamp": "2025-12-09T17:15:57.798Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Is there a way to reduce my premium?",
+      "timestamp": "2025-12-09T17:15:57.798Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, let me look at your options.",
+      "timestamp": "2025-12-09T17:19:57.798Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "What happens if I need to make changes?",
+      "timestamp": "2025-12-09T17:19:57.798Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, we can adjust that for you right away.",
+      "timestamp": "2025-12-09T17:23:57.798Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "What happens if I need to make changes?",
+      "timestamp": "2025-12-09T17:23:57.798Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, we can adjust that for you right away.",
+      "timestamp": "2025-12-09T17:27:57.798Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "neutral",
+    "score": "0.59"
+  },
+  "wordCount": 63,
+  "messageCount": 8,
+  "keyTopics": [
+    "upgrade",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding interested in upgrading coverage. Customer satisfied with outcome."
+}

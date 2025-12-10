@@ -1,0 +1,63 @@
+{
+  "id": "transcript-005",
+  "customerId": "CUST-097153",
+  "agentId": "agent-004",
+  "agentName": "Agent 016",
+  "callDate": "2025-11-29T17:27:57.788Z",
+  "callDuration": 853,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Mark Moore",
+    "email": "mark.moore@outlook.com",
+    "phone": "+44 20 8794 5771",
+    "address": "383 High Street, B5 4ST",
+    "postcode": "B5 4ST",
+    "policyNumber": "POL-0822532"
+  },
+  "scenario": "renewal",
+  "scenarioDescription": "Discussing annual home insurance renewal",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "Can I increase my coverage?",
+      "timestamp": "2025-12-09T17:15:57.788Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Certainly! Let me walk you through the key coverage areas.",
+      "timestamp": "2025-12-09T17:19:57.788Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "How much will this cost me?",
+      "timestamp": "2025-12-09T17:19:57.788Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me explain the process step by step.",
+      "timestamp": "2025-12-09T17:23:57.788Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Are there any additional benefits available?",
+      "timestamp": "2025-12-09T17:23:57.788Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, let me look at your options.",
+      "timestamp": "2025-12-09T17:27:57.788Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "neutral",
+    "score": "0.98"
+  },
+  "wordCount": 42,
+  "messageCount": 6,
+  "keyTopics": [
+    "renewal",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding discussing annual home insurance renewal. Customer satisfied with outcome."
+}

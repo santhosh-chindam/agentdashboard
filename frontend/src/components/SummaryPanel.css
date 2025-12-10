@@ -246,3 +246,59 @@
   border-radius: 4px;
   font-weight: 600;
 }
+
+.messages-list-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.messages-list-summary .message {
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.messages-list-summary .message.agent {
+  background: #f0f0f0;
+  border-left: 4px solid #667eea;
+}
+
+.messages-list-summary .message.customer {
+  background: #e8f5e9;
+  border-left: 4px solid #66bb6a;
+}
+
+.messages-list-summary .message-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.messages-list-summary .message-sender {
+  font-weight: 700;
+  color: #333;
+  font-size: 0.9em;
+}
+
+.messages-list-summary .message.agent .message-sender {
+  color: #667eea;
+}
+
+.messages-list-summary .message.customer .message-sender {
+  color: #66bb6a;
+}
+
+.messages-list-summary .message-time {
+  font-size: 0.8em;
+  color: #999;
+}
+
+.messages-list-summary .message-text {
+  color: #333;
+  line-height: 1.5;
+  word-wrap: break-word;
+}

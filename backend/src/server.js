@@ -20,11 +20,20 @@ app.use(cors({
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
+// Serve static files from frontend build
+const buildPath = path.join(__dirname, '../../frontend/build');
+app.use(express.static(buildPath));
+
 // Routes
 app.use('/api/transcripts', transcriptRoutes);
 app.use('/api/summaries', summaryRoutes);
 app.use('/api/agents', agentRoutes);
 app.use('/api/health', healthRoutes);
+
+// Serve index.html for all non-API routes (SPA fallback)
+app.get('*', (req, res) => {
+  res.sendFile(path.join(buildPath, 'index.html'));
+});
 
 // Error handling middleware
 app.use((err, req, res, next) => {

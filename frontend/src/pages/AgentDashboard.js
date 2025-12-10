@@ -64,33 +64,33 @@ function AgentDashboard() {
   return (
     <div className="agent-dashboard">
       <div className="dashboard-header">
-        <h2>📊 Real-time Dashboard</h2>
+        <h2>Real-time Dashboard</h2>
         <button className="refresh-btn" onClick={fetchDashboardData} disabled={loading}>
-          {loading ? '⟳ Updating...' : '⟳ Refresh'}
+          {loading ? 'Updating...' : 'Refresh'}
         </button>
       </div>
 
       <div className="stats-grid">
         <StatCard 
-          icon="📞"
+          icon="☎"
           label="Total Calls"
           value={stats.totalCalls}
           color="primary"
         />
         <StatCard 
-          icon="✅"
+          icon="✓"
           label="Completed Calls"
           value={stats.completedCalls}
           color="success"
         />
         <StatCard 
-          icon="👤"
+          icon="→"
           label="Transferred to Agent"
           value={stats.transferredCalls}
           color="warning"
         />
         <StatCard 
-          icon="😊"
+          icon="+"
           label="Positive Sentiment"
           value={stats.positiveSentiment}
           color="info"
@@ -99,7 +99,7 @@ function AgentDashboard() {
 
       <div className="dashboard-grid">
         <div className="dashboard-section">
-          <h3>📈 Recent Calls</h3>
+          <h3>Recent Calls</h3>
           <div className="calls-list">
             {transcripts.slice(0, 5).map(transcript => (
               <div key={transcript.id} className="call-card">
@@ -113,7 +113,7 @@ function AgentDashboard() {
                   </div>
                 </div>
                 <div className="call-meta">
-                  <span className="duration">⏱️ {transcript.duration}</span>
+                  <span className="duration">{transcript.duration}</span>
                   {transcript.transferredToAgent && (
                     <span className="badge-transferred">Transferred</span>
                   )}
@@ -127,7 +127,7 @@ function AgentDashboard() {
         </div>
 
         <div className="dashboard-section">
-          <h3>👥 Active Agents</h3>
+          <h3>Active Agents</h3>
           <div className="agents-list">
             {agents.slice(0, 5).map(agent => (
               <div key={agent.id} className="agent-card">
@@ -150,7 +150,7 @@ function AgentDashboard() {
       </div>
 
       <div className="dashboard-section full-width">
-        <h3>📊 Call Summary Statistics</h3>
+        <h3>Call Summary Statistics</h3>
         <div className="summary-stats">
           <div className="stat-item">
             <label>Average Call Duration</label>

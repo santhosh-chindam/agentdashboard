@@ -1,0 +1,63 @@
+{
+  "id": "transcript-009",
+  "customerId": "CUST-064575",
+  "agentId": "agent-009",
+  "agentName": "Agent 020",
+  "callDate": "2025-09-12T17:27:57.789Z",
+  "callDuration": 892,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Barbara Sanchez",
+    "email": "barbara.sanchez@outlook.com",
+    "phone": "+44 113 5983 6837",
+    "address": "908 High Street, KT1 1AA",
+    "postcode": "KT1 1AA",
+    "policyNumber": "POL-0691002"
+  },
+  "scenario": "upgrade",
+  "scenarioDescription": "Interested in upgrading coverage",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "Can you explain what's covered in my policy?",
+      "timestamp": "2025-12-09T17:15:57.789Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "You're covered for the following scenarios...",
+      "timestamp": "2025-12-09T17:19:57.789Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "What's my excess amount?",
+      "timestamp": "2025-12-09T17:19:57.789Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a great point. Let me check what we can do.",
+      "timestamp": "2025-12-09T17:23:57.789Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "How long does claim settlement usually take?",
+      "timestamp": "2025-12-09T17:23:57.789Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "You're covered for the following scenarios...",
+      "timestamp": "2025-12-09T17:27:57.789Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "positive",
+    "score": "0.82"
+  },
+  "wordCount": 42,
+  "messageCount": 6,
+  "keyTopics": [
+    "upgrade",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding interested in upgrading coverage. Customer satisfied with outcome."
+}

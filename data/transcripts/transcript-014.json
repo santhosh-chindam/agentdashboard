@@ -1,0 +1,88 @@
+{
+  "id": "transcript-014",
+  "customerId": "CUST-089483",
+  "agentId": "agent-013",
+  "agentName": "Agent 024",
+  "callDate": "2025-10-18T17:27:57.791Z",
+  "callDuration": 500,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Brian Lopez",
+    "email": "brian.lopez@gmail.com",
+    "phone": "+44 114 8531 0482",
+    "address": "294 High Street, B5 4ST",
+    "postcode": "B5 4ST",
+    "policyNumber": "POL-0042968"
+  },
+  "scenario": "renewal",
+  "scenarioDescription": "Discussing annual home insurance renewal",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "How do I renew my policy?",
+      "timestamp": "2025-12-09T17:05:57.791Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "The typical timeframe is about 5-7 working days.",
+      "timestamp": "2025-12-09T17:09:57.791Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "How long does claim settlement usually take?",
+      "timestamp": "2025-12-09T17:09:57.791Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, let me look at your options.",
+      "timestamp": "2025-12-09T17:13:57.791Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "How do I renew my policy?",
+      "timestamp": "2025-12-09T17:13:57.791Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "We have several options available for you.",
+      "timestamp": "2025-12-09T17:17:57.791Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "How much will this cost me?",
+      "timestamp": "2025-12-09T17:17:57.791Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, let me look at your options.",
+      "timestamp": "2025-12-09T17:21:57.791Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can you explain what's covered in my policy?",
+      "timestamp": "2025-12-09T17:21:57.791Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's an excellent question. Here's what I'd recommend...",
+      "timestamp": "2025-12-09T17:25:57.791Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "What's the process for making a claim?",
+      "timestamp": "2025-12-09T17:25:57.791Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "negative",
+    "score": "0.89"
+  },
+  "wordCount": 77,
+  "messageCount": 11,
+  "keyTopics": [
+    "renewal",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding discussing annual home insurance renewal. Customer satisfied with outcome."
+}

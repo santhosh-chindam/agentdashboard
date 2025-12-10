@@ -21,7 +21,12 @@
       "policyNumber": "HOM-2024-5678",
       "coverageType": "Home Insurance",
       "deductible": "$1000",
-      "coverageArea": "Roof Damage"
+      "coverageArea": "Roof Damage",
+      "propertyValue": "$450,000",
+      "homeAge": "12 years",
+      "constructionType": "Wood Frame",
+      "roofMaterial": "Asphalt Shingles",
+      "lastRoofReplacement": "2015"
     },
     "followUpRequired": true
   },

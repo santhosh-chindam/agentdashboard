@@ -38,8 +38,8 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>🏠 Home Insurance Agent Dashboard</h1>
-        <p>Hackathon Edition - Real-time Home Insurance Call Transcript Analysis</p>
+        <h1>Home Insurance Agent Dashboard</h1>
+        <p>Lloyd's Banking Group - Real-time Home Insurance Call Transcript Analysis</p>
       </header>
 
       <div className="app-container">
@@ -48,13 +48,13 @@ function App() {
             className={`nav-btn ${activeTab === 'dashboard' ? 'active' : ''}`}
             onClick={() => setActiveTab('dashboard')}
           >
-            📊 Dashboard
+            Dashboard
           </button>
           <button 
             className={`nav-btn ${activeTab === 'transcripts' ? 'active' : ''}`}
             onClick={() => setActiveTab('transcripts')}
           >
-            📝 Transcripts
+            Transcripts
           </button>
         </nav>
 
@@ -81,12 +81,18 @@ function App() {
                 />
               </div>
 
-              {selectedTranscript && (
-                <div className="transcript-detail-panel">
-                  <TranscriptViewer transcript={selectedTranscript} />
-                  <SummaryPanel transcriptId={selectedTranscript.id} />
-                </div>
-              )}
+              <div className="transcript-detail-panel">
+                {selectedTranscript ? (
+                  <>
+                    <TranscriptViewer transcript={selectedTranscript} />
+                    <SummaryPanel transcriptId={selectedTranscript.id} transcript={selectedTranscript} />
+                  </>
+                ) : (
+                  <div className="no-transcript-selected">
+                    <p>Select a call from the list to view transcript and insights</p>
+                  </div>
+                )}
+              </div>
             </div>
           )}
         </main>

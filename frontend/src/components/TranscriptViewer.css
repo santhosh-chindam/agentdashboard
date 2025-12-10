@@ -7,15 +7,18 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  flex: 1;
+  min-height: 0;
 }
 
 .viewer-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   border-bottom: 2px solid #f0f0f0;
-  padding-bottom: 15px;
+  padding-bottom: 12px;
+  flex-shrink: 0;
 }
 
 .viewer-header h2 {
@@ -37,7 +40,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  flex-shrink: 0;
 }
 
 .info-card {
@@ -74,6 +78,7 @@
   margin: 0 0 15px 0;
   color: #333;
   font-size: 1.1em;
+  flex-shrink: 0;
 }
 
 .messages-list {
@@ -130,6 +135,13 @@
   color: #333;
   line-height: 1.5;
   word-wrap: break-word;
+}
+
+.no-messages {
+  text-align: center;
+  color: #999;
+  padding: 40px 20px;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {

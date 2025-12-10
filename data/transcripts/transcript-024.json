@@ -1,0 +1,78 @@
+{
+  "id": "transcript-024",
+  "customerId": "CUST-086488",
+  "agentId": "agent-011",
+  "agentName": "Agent 046",
+  "callDate": "2025-09-13T17:27:57.797Z",
+  "callDuration": 1074,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Joseph Brown",
+    "email": "joseph.brown@gmail.com",
+    "phone": "+44 113 8124 8994",
+    "address": "203 High Street, RH1 1AA",
+    "postcode": "RH1 1AA",
+    "policyNumber": "POL-0295731"
+  },
+  "scenario": "discount",
+  "scenarioDescription": "Asking about available discounts",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "How long does claim settlement usually take?",
+      "timestamp": "2025-12-09T17:09:57.797Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me explain the process step by step.",
+      "timestamp": "2025-12-09T17:13:57.797Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Is there a way to reduce my premium?",
+      "timestamp": "2025-12-09T17:13:57.797Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me explain the process step by step.",
+      "timestamp": "2025-12-09T17:17:57.797Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can I increase my coverage?",
+      "timestamp": "2025-12-09T17:17:57.797Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "You're covered for the following scenarios...",
+      "timestamp": "2025-12-09T17:21:57.797Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can you explain what's covered in my policy?",
+      "timestamp": "2025-12-09T17:21:57.797Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Certainly! Let me walk you through the key coverage areas.",
+      "timestamp": "2025-12-09T17:25:57.797Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "How long does claim settlement usually take?",
+      "timestamp": "2025-12-09T17:25:57.797Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "neutral",
+    "score": "0.90"
+  },
+  "wordCount": 67,
+  "messageCount": 9,
+  "keyTopics": [
+    "discount",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding asking about available discounts. Customer satisfied with outcome."
+}

@@ -1,8 +1,8 @@
 {
-  "id": "transcript-001",
-  "customerName": "John Smith",
-  "customerPhone": "+1-555-123-4567",
-  "customerEmail": "john.smith@email.com",
+  "id": "sample-001",
+  "customerName": "James Patterson",
+  "customerPhone": "+44 20 7946 0958",
+  "customerEmail": "james.patterson@btinternet.com",
   "agentName": "Voice Bot - AI Assistant",
   "agentId": "bot-001",
   "duration": "00:04:32",
@@ -13,7 +13,7 @@
   "messages": [
     {
       "sender": "Customer",
-      "text": "Hi, I'm calling about my home insurance policy. I have a question about my coverage.",
+      "text": "Hi, I'm ringing about my home insurance policy. I have a question about my cover.",
       "timestamp": "2025-12-09T14:30:15Z"
     },
     {
@@ -23,12 +23,12 @@
     },
     {
       "sender": "Customer",
-      "text": "My policy number is HOM-2024-5678. I want to know if my roof damage is covered under my current plan.",
+      "text": "My policy number is POL-2024-8901. I want to know if my roof damage is covered under my current plan.",
       "timestamp": "2025-12-09T14:31:20Z"
     },
     {
       "sender": "Agent",
-      "text": "Thank you for that information. Let me look up your policy details. Your homeowners policy includes coverage for roof damage with a $1000 deductible.",
+      "text": "Thank you for that information. Let me look up your policy details. Your home insurance includes cover for roof damage with a £1000 excess.",
       "timestamp": "2025-12-09T14:32:00Z"
     },
     {
@@ -38,7 +38,7 @@
     },
     {
       "sender": "Agent",
-      "text": "Great question. Weather damage like storm or hail is covered under your dwelling coverage. The deductible is $1000. However, for more complex claims involving multiple areas of damage, I recommend speaking with our claims specialist.",
+      "text": "Great question. Weather damage like storm or hail is covered under your buildings cover. The excess is £1000. However, for more complex claims involving multiple areas of damage, I recommend speaking with our claims handler.",
       "timestamp": "2025-12-09T14:33:30Z"
     },
     {
@@ -58,7 +58,7 @@
     },
     {
       "sender": "Agent",
-      "text": "You're welcome! One moment please, I'm connecting you to a specialist now. They'll be able to give you detailed information about your dwelling coverage and roof damage claim process.",
+      "text": "You're welcome! One moment please, I'm connecting you to a specialist now. They'll be able to give you detailed information about your buildings cover and roof damage claim process.",
       "timestamp": "2025-12-09T14:35:50Z"
     },
     {
@@ -73,5 +73,72 @@
     }
   ],
   "createdAt": "2025-12-09T14:30:00Z",
-  "updatedAt": "2025-12-09T14:36:45Z"
+  "updatedAt": "2025-12-09T14:36:45Z",
+  "policyDetails": {
+    "policyNumber": "HOM-2024-5678",
+    "policyType": "Homeowners Insurance - Comprehensive",
+    "propertyAddress": "123 Main Street, Springfield, IL 62701",
+    "policyStatus": "Active",
+    "effectiveDate": "2024-03-15",
+    "expirationDate": "2025-03-15",
+    "daysToExpiration": 96,
+    "annualPremium": "$1,250.00",
+    "monthlyPayment": "$104.17",
+    "paymentMethod": "Automatic Bank Draft",
+    "coverage": {
+      "dwelling": {
+        "limit": "$350,000",
+        "deductible": "$1,000",
+        "description": "Covers the structure of your home and attached structures"
+      },
+      "personalProperty": {
+        "limit": "$175,000",
+        "deductible": "$1,000",
+        "description": "Covers your belongings inside the home"
+      },
+      "liabilityProtection": {
+        "limit": "$300,000",
+        "deductible": "$0",
+        "description": "Covers legal responsibility for injuries and damages to others"
+      },
+      "medicalPayments": {
+        "limit": "$5,000",
+        "deductible": "$0",
+        "description": "Covers medical expenses for guests injured on your property"
+      },
+      "additionalLiving": {
+        "limit": "$52,500",
+        "deductible": "$1,000",
+        "description": "Covers temporary living expenses if home is uninhabitable"
+      }
+    },
+    "coveredPerils": [
+      "Fire and smoke damage",
+      "Windstorm and hail damage",
+      "Theft and vandalism",
+      "Falling objects",
+      "Roof damage from weather",
+      "Lightning strikes",
+      "Vehicle damage to home",
+      "Weight of ice, snow, or sleet"
+    ],
+    "exclusions": [
+      "Flood damage",
+      "Earthquake damage",
+      "Wear and tear",
+      "Maintenance issues",
+      "Intentional damage"
+    ],
+    "discounts": [
+      "Multi-policy discount (Home + Auto): 15%",
+      "Security system discount: 10%",
+      "Claims-free for 3 years: 5%"
+    ],
+    "appliedDiscounts": "30% total discount",
+    "agentAssigned": "Sarah Johnson",
+    "agentPhone": "+1-555-100-1001"
+  },
+  "customerAddress": "10 Downing Street, London, SW1A 2AA",
+  "customerPostcode": "SW1A 2AA",
+  "policyNumber": "POL-2024-8901"
 }

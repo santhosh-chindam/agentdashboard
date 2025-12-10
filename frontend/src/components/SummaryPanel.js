@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './SummaryPanel.css';
 
-function SummaryPanel({ transcriptId }) {
+function SummaryPanel({ transcriptId, transcript }) {
   const [summary, setSummary] = useState(null);
   const [loading, setLoading] = useState(false);
   const [expandedSection, setExpandedSection] = useState('summary');
@@ -71,6 +71,12 @@ function SummaryPanel({ transcriptId }) {
           onClick={() => setExpandedSection('insights')}
         >
           Insights
+        </button>
+        <button
+          className={`tab-btn ${expandedSection === 'conversation' ? 'active' : ''}`}
+          onClick={() => setExpandedSection('conversation')}
+        >
+          Conversation History
         </button>
       </div>
 
@@ -161,6 +167,34 @@ function SummaryPanel({ transcriptId }) {
               </p>
             </div>
           </>
+        )}
+
+        {expandedSection === 'conversation' && transcript && (
+          <div className="summary-section">
+            <h3>💬 Conversation History ({transcript.messages?.length || 0} messages)</h3>
+            <div className="messages-list-summary">
+              {transcript.messages && transcript.messages.length > 0 ? (
+                transcript.messages.map((message, index) => (
+                  <div
+                    key={index}
+                    className={`message ${message.sender?.toLowerCase() === 'agent' ? 'agent' : 'customer'}`}
+                  >
+                    <div className="message-header">
+                      <span className="message-sender">
+                        {message.sender || 'Unknown'}
+                      </span>
+                      <span className="message-time">
+                        {message.timestamp ? new Date(message.timestamp).toLocaleTimeString() : ''}
+                      </span>
+                    </div>
+                    <div className="message-text">{message.text}</div>
+                  </div>
+                ))
+              ) : (
+                <p className="no-data">No conversation history available</p>
+              )}
+            </div>
+          </div>
         )}
       </div>
     </div>

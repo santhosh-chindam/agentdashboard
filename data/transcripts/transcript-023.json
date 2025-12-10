@@ -1,0 +1,58 @@
+{
+  "id": "transcript-023",
+  "customerId": "CUST-001882",
+  "agentId": "agent-005",
+  "agentName": "Agent 003",
+  "callDate": "2025-10-05T17:27:57.797Z",
+  "callDuration": 1233,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Elizabeth Thomas",
+    "email": "elizabeth.thomas@outlook.com",
+    "phone": "+44 113 1267 1528",
+    "address": "965 High Street, B5 4ST",
+    "postcode": "B5 4ST",
+    "policyNumber": "POL-0438566"
+  },
+  "scenario": "discount",
+  "scenarioDescription": "Asking about available discounts",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "Can I increase my coverage?",
+      "timestamp": "2025-12-09T17:17:57.797Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me explain the process step by step.",
+      "timestamp": "2025-12-09T17:21:57.797Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "How long does claim settlement usually take?",
+      "timestamp": "2025-12-09T17:21:57.797Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's an excellent question. Here's what I'd recommend...",
+      "timestamp": "2025-12-09T17:25:57.797Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Can I increase my coverage?",
+      "timestamp": "2025-12-09T17:25:57.797Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "positive",
+    "score": "0.77"
+  },
+  "wordCount": 33,
+  "messageCount": 5,
+  "keyTopics": [
+    "discount",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding asking about available discounts. Customer satisfied with outcome."
+}

@@ -1,0 +1,93 @@
+{
+  "id": "transcript-018",
+  "customerId": "CUST-067872",
+  "agentId": "agent-000",
+  "agentName": "Agent 023",
+  "callDate": "2025-10-29T17:27:57.794Z",
+  "callDuration": 1494,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Robert Ramirez",
+    "email": "robert.ramirez@aol.com",
+    "phone": "+44 114 4586 9885",
+    "address": "837 High Street, SL1 1UA",
+    "postcode": "SL1 1UA",
+    "policyNumber": "POL-0107333"
+  },
+  "scenario": "coverage_removal",
+  "scenarioDescription": "Removing unwanted coverage options",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "Can you explain what's covered in my policy?",
+      "timestamp": "2025-12-09T17:03:57.794Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "The typical timeframe is about 5-7 working days.",
+      "timestamp": "2025-12-09T17:07:57.794Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Are there any additional benefits available?",
+      "timestamp": "2025-12-09T17:07:57.794Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, let me look at your options.",
+      "timestamp": "2025-12-09T17:11:57.794Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Are there any additional benefits available?",
+      "timestamp": "2025-12-09T17:11:57.794Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can definitely help with that. The cost would be...",
+      "timestamp": "2025-12-09T17:15:57.794Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Is there a way to reduce my premium?",
+      "timestamp": "2025-12-09T17:15:57.794Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "The typical timeframe is about 5-7 working days.",
+      "timestamp": "2025-12-09T17:19:57.794Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Is there a way to reduce my premium?",
+      "timestamp": "2025-12-09T17:19:57.794Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, let me look at your options.",
+      "timestamp": "2025-12-09T17:23:57.794Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Are there any additional benefits available?",
+      "timestamp": "2025-12-09T17:23:57.794Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Let me explain the process step by step.",
+      "timestamp": "2025-12-09T17:27:57.794Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "negative",
+    "score": "0.91"
+  },
+  "wordCount": 90,
+  "messageCount": 12,
+  "keyTopics": [
+    "coverage_removal",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding removing unwanted coverage options. Customer satisfied with outcome."
+}

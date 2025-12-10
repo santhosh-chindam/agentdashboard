@@ -1,0 +1,83 @@
+{
+  "id": "transcript-034",
+  "customerId": "CUST-086794",
+  "agentId": "agent-005",
+  "agentName": "Agent 005",
+  "callDate": "2025-09-11T17:27:57.800Z",
+  "callDuration": 1908,
+  "callStatus": "completed",
+  "customer": {
+    "name": "Sandra Rodriguez",
+    "email": "sandra.rodriguez@btinternet.com",
+    "phone": "+44 131 8839 5890",
+    "address": "87 High Street, EC1A 1BB",
+    "postcode": "EC1A 1BB",
+    "policyNumber": "POL-0580442"
+  },
+  "scenario": "quotation",
+  "scenarioDescription": "Requesting new quotation for property",
+  "messages": [
+    {
+      "speaker": "customer",
+      "text": "What's the process for making a claim?",
+      "timestamp": "2025-12-09T17:07:57.800Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, let me look at your options.",
+      "timestamp": "2025-12-09T17:11:57.800Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "What's my excess amount?",
+      "timestamp": "2025-12-09T17:11:57.800Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "The typical timeframe is about 5-7 working days.",
+      "timestamp": "2025-12-09T17:15:57.800Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "What happens if I need to make changes?",
+      "timestamp": "2025-12-09T17:15:57.800Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, we can adjust that for you right away.",
+      "timestamp": "2025-12-09T17:19:57.800Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "How long does claim settlement usually take?",
+      "timestamp": "2025-12-09T17:19:57.800Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Certainly! Let me walk you through the key coverage areas.",
+      "timestamp": "2025-12-09T17:23:57.800Z"
+    },
+    {
+      "speaker": "customer",
+      "text": "Are there any additional benefits available?",
+      "timestamp": "2025-12-09T17:23:57.800Z"
+    },
+    {
+      "speaker": "agent",
+      "text": "Certainly! Let me walk you through the key coverage areas.",
+      "timestamp": "2025-12-09T17:27:57.800Z"
+    }
+  ],
+  "sentiment": {
+    "overall": "negative",
+    "score": "0.74"
+  },
+  "wordCount": 76,
+  "messageCount": 10,
+  "keyTopics": [
+    "quotation",
+    "home insurance",
+    "UK property"
+  ],
+  "notes": "Customer called regarding requesting new quotation for property. Customer satisfied with outcome."
+}

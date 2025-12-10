@@ -35,28 +35,6 @@ function TranscriptViewer({ transcript }) {
           <p>{transcript.wordCount}</p>
         </div>
       </div>
-
-      <div className="messages-container">
-        <h3>Conversation</h3>
-        <div className="messages-list">
-          {transcript.messages && transcript.messages.map((message, index) => (
-            <div
-              key={index}
-              className={`message ${message.sender?.toLowerCase() === 'agent' ? 'agent' : 'customer'}`}
-            >
-              <div className="message-header">
-                <span className="message-sender">
-                  {message.sender || 'Unknown'}
-                </span>
-                <span className="message-time">
-                  {message.timestamp ? new Date(message.timestamp).toLocaleTimeString() : ''}
-                </span>
-              </div>
-              <div className="message-text">{message.text}</div>
-            </div>
-          ))}
-        </div>
-      </div>
     </div>
   );
 }
